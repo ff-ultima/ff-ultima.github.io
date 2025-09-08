@@ -17,7 +17,7 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
   url: 'https://ff-ultima.github.io',
-  baseUrl: '/',
+  baseUrl: '/wiki/',
   trailingSlash: false,
   organizationName: 'ff-ultima',
   projectName: 'wiki',
