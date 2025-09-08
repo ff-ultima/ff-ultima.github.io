@@ -13,22 +13,18 @@ const config = {
   title: 'FF Ultima Wiki',
   tagline: 'Documentation for the Firefox theme with too many options',
   favicon: 'img/favicon.ico',
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
   url: 'https://ff-ultima.github.io',
   baseUrl: '/',
   trailingSlash: false,
-  organizationName: 'ff-ultima', // Usually your GitHub org/user name.
-  projectName: 'wiki', // Usually your repo name.
-  deploymentBranch: 'deployment',
+  organizationName: 'ff-ultima',
+  projectName: 'wiki',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -76,15 +72,15 @@ const config = {
       navbar: {
         title: 'FF Ultima',
         logo: {
-          alt: 'i',
-          src: 'img/logo.svg',
+          alt: '☺',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -101,7 +97,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Helpful Documentation',
                 to: '/docs/intro',
               },
             ],
@@ -110,15 +106,15 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Github',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'Issues',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'X',
+                label: 'Discussions',
                 href: 'https://x.com/docusaurus',
               },
             ],
@@ -137,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FF Ultima.`,
       },
       prism: {
         theme: prismThemes.github,
