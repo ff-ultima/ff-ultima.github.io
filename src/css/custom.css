@@ -28,3 +28,35 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* css structure todo */
+
+@layer docusaurus.theme-classic {
+  .toggle_vylO {
+    margin-left: 0.15rem;
+  }
+}
+@layer docusaurus.infima {
+  .navbar__logo {
+    margin-right: 0.85rem;
+  }
+}
+
+@layer docusaurus.infima {
+  html[data-theme="dark"] {
+    --ifm-background-surface-color: #161618;
+    --ifm-footer-background-color: #161618;
+  }
+
+  .footer {
+    background-color: var(--ifm-footer-background-color);
+    color: var(--ifm-footer-color);
+    padding: var(--ifm-footer-padding-vertical) var(--ifm-footer-padding-horizontal);
+  }
+  .footer--dark {
+    --ifm-footer-background-color: #161618;
+    --ifm-footer-color: var(--ifm-footer-link-color);
+    --ifm-footer-link-color: var(--ifm-color-secondary);
+    --ifm-footer-title-color: var(--ifm-color-white);
+  }
+}

@@ -10,11 +10,17 @@
   overflow: hidden;
   background: transparent;
 }
-@media (prefers-color-scheme: dark) {
-  .hero__subtitle {
-    color: red;
+
+p {
+  color: black !important;
+}
+[data-theme='dark'] {
+  p {
+    color: white !important;
   }
 }
+
+
 
 
 @media screen and (max-width: 996px) {
