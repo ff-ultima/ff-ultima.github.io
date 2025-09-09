@@ -1,3 +1,7 @@
+# Wiki
+
+Upon completion, the [FF Ultima Wiki](https://github.com/soulhotel/ff-ultima/wiki) will be moved to this static site: https://ff-ultima.github.io/wiki/.
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

@@ -68,7 +68,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/soc.gif',
       navbar: {
         title: 'FF Ultima',
         logo: {
@@ -82,10 +82,14 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/soulhotel/ff-ultima',
             label: 'GitHub',
+            position: 'left',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
