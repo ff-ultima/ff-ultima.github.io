@@ -1,0 +1,11 @@
+{
+  "label": "Settings",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "FF Ultima applies all of its features by filtering through user preferences (example: ultima.navbar.autohide) 
+    found on the about:config page. This allows You, the User, a bit of freedom in how you use the theme. 
+    Combining different preferences can achieve multiple layouts and interesting results. 
+    Below is a list of every setting found in the theme."
+  }
+}
