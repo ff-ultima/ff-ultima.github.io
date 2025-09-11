@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'Helpful Documentation',
-                to: '/docs/intro',
+                to: '/docs/getting-started',
               },
             ],
           },
@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} FF Ultima.`,
+        copyright: `Copyright © ${new Date().getFullYear()} soulhotel.`,
       },
       prism: {
         theme: prismThemes.github,

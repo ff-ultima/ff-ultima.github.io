@@ -85,7 +85,7 @@ You can specify a tab outline color by typing in a color (or gradient). Leave em
 For stability, `ultima.tabs.vertical.hide` is reliant on ExpandonHover being `ON`. This allows a consistent experience across the browser, whether in private browsing, or a different OS.
  <img src="https://github.com/user-attachments/assets/35c9c53f-2c6c-40c9-942a-cc5649473213" width="90%" />
 
-If you're interested in a Sidebery configuration be sure to check out the documentation [here](../sidebery-configuration)
+If you're interested in a Sidebery configuration be sure to check out the documentation [here](../sidebery)
 :::
 
 ### ultima.tabs.newtabbutton.ontop

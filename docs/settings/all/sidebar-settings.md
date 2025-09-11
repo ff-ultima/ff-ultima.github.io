@@ -32,7 +32,7 @@ Tthis setting will show/hide Sidebery when hovered (other sidebars will remain a
 For stability, `ultima.tabs.vertical.hide` is reliant on ExpandonHover being `ON`. This allows a consistent experience across the browser, whether in private browsing, or a different OS.
  <img src="https://github.com/user-attachments/assets/35c9c53f-2c6c-40c9-942a-cc5649473213" width="90%" />
 
-If you're interested in a Sidebery configuration be sure to check out the documentation [here](../sidebery-configuration)
+If you're interested in a Sidebery configuration be sure to check out the documentation [here](../sidebery)
 :::
 
 ### ultima.sidebar.seperator
@@ -49,7 +49,7 @@ When using sidebery autohide, this setting will keep the sidebar expanded when t
 
 This setting allows Sidebery to automatically adapt to Color Scheme colors
 
-Learn more about this in the Sidebery configuration docs, [here](../sidebery-configuration)
+Learn more about this in the Sidebery configuration docs, [here](../sidebery)
 
 ### ultima.sidebar.hide.header
 
