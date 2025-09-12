@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkff_ultima_wiki=self.webpackChunkff_ultima_wiki||[]).push([[1903],{1912:i=>{i.exports=JSON.parse('{"blogBasePath":"/wiki/blog","blogTitle":"Blog","authorsListPath":"/wiki/blog/authors"}')}}]);
