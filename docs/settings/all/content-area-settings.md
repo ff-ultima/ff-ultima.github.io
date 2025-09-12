@@ -13,7 +13,7 @@ description: Content area spacing, compact spacing, new tab page, context menu, 
 
 ### ultima.scrollbar.thin
 
-> By [mrodyhin](https://github.com/mrodyhin), [#368](github.com/soulhotel/FF-ULTIMA/pull/368)
+> By [mrodyhin](https://github.com/mrodyhin), [#368](https://github.com/soulhotel/FF-ULTIMA/pull/368)
 
 Forces a more *thin* scroll bar for the content area, very useful for Windows 10 Users
 
