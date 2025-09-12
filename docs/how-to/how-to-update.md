@@ -47,7 +47,7 @@ sidebar_position: 3
 4. You can also disable the setting right away if you don't plan on using it yet.
 
 
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/2c788a6b-9e79-4a6d-a0d5-a19a350b43fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/2c788a6b-9e79-4a6d-a0d5-a19a350b43fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## An "about config" Overview
 

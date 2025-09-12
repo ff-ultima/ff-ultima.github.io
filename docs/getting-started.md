@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Getting Started
 
-> You can find helpful documentation for almost anything related to the theme here. IF you still can't find what you're looking for, [post an issue](https://github.com/soulhotel/FF-ULTIMA/issues?q=is%3Aissue) on Github. Issues are addressed/answered anywhere between 1 hour to 1 day.
+You can find helpful documentation for almost everything related to FF Ultima here. IF you still can't find what you're looking for, [post an issue](https://github.com/soulhotel/FF-ULTIMA/issues?q=is%3Aissue) on Github. Issues are addressed/answered anywhere between 1 hour to 1 day.
+
+### Looking for a full [list of theme settings? ->](./category/settings)
 
 ![gif](https://github.com/user-attachments/assets/dc1882e6-6543-41bd-aff7-ded2b96ffb97)
 
@@ -49,14 +51,14 @@ sidebar_position: 1
 
 ---
 
-## How do I switch the Dark/Light Modes?
+### How do I switch the Dark/Light Modes?
 
 FF Ultima cycles between dark and light mode themes depending on your System's Current Color Mode.
 - Windows > Settings > Personalize
 - Mac > System Settings > Appearance
 - Linux (Gnome) > Settings > Appearance
 - Linux (KDE) > System Settings > Global Theme
-> If you change your dark/light [color-scheme](https://github.com/soulhotel/FF-ULTIMA/wiki/Color-Schemes) in the about:config page, the automatic theming will use those preferences.
+> If you change your dark/light [color-scheme](./category/color-schemes) in the about:config page, the automatic theming will use those preferences.
 
 ---
 

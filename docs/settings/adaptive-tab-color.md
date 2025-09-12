@@ -18,7 +18,7 @@ This extension configuration seems to offer the best compatibility (You can chan
 <img src="https://github.com/user-attachments/assets/b8f8ec41-3dd7-4654-9d0c-a054ff0a9a41" width="35%" /> <img src="https://github.com/user-attachments/assets/e75d6312-d3b7-44fe-9a0d-1d0ce964a982" width="59%" />
 
 
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/789a31ea-d17a-4292-994e-97147f2c2a59" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/789a31ea-d17a-4292-994e-97147f2c2a59" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- https://github.com/user-attachments/assets/789a31ea-d17a-4292-994e-97147f2c2a59 -->
 

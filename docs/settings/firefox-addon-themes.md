@@ -13,4 +13,4 @@ By restricting FF Ultima's color schemes to a non-lw-theme state, Firefox add-on
 
 Use `user.theme.xtension.swap.addon.colors` to swap add-on theme colors.
 
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

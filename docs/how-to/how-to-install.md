@@ -83,24 +83,29 @@ After installing the theme, it's important that you <ins>do **not** keep the use
 
 ## Video Demonstrations
 
-<details>
-<summary>Video installing FF Ultima 2.0</summary>
+Video installing FF Ultima 3.0+
 
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/FDYYm-Tt39I?si=-x9Qk7SpFP5L7E-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/q48sZQ3nxe8?si=E6erW9WghTXROsAv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<details>
+<summary>Video installing FF Ultima 2.0+</summary>
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/FDYYm-Tt39I?si=-x9Qk7SpFP5L7E-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 <details>
 <summary>Video installing FF Ultima 2.6 (automated on windows)</summary>
 
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/yc3xRjVgR8A?si=i9f2GeJpw482P_Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/yc3xRjVgR8A?si=i9f2GeJpw482P_Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 <details>
 <summary>Video installing FF Ultima 2.7 (automated on linux)</summary>
 
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/Cb350ZcjUu0?si=e47U7IxmFFFokZC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/Cb350ZcjUu0?si=e47U7IxmFFFokZC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 ## Automated Installation
 
-You can automate the full installation process in [a couple of ways](./how-to-automate-installation).
+You can also automate the full installation process in [a couple of ways ->](./how-to-automate-installation)

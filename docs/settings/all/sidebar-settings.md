@@ -10,13 +10,13 @@ description: Sidebar theming, spacing, behavior, etc.
 ### ultima.sidebar.autohide
 
 Tthis setting will show/hide all sidebars (not vertical tabs) when hovered
-<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/bbd5cd62-b29c-41cd-b1db-ea463abcedc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/bbd5cd62-b29c-41cd-b1db-ea463abcedc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### ultima.sidebery.autohide
 
 Tthis setting will show/hide Sidebery when hovered (other sidebars will remain a static width)
-<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/951ce0d7-4d21-4f72-92c3-b6b6667354c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/951ce0d7-4d21-4f72-92c3-b6b6667354c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### ultima.tabs.vertical.hide (hiding the vertical tab bar)
@@ -25,7 +25,7 @@ Tthis setting will show/hide Sidebery when hovered (other sidebars will remain a
 - when combined with `ultima.tabs.vertical.hide.in.screencorner`, vertical tabs will be hidden at the bottom corner of the screen
 - or combined with `ultima.tabs.vertical.hide.in.screenedge`, vertical tabs will be hidden in the screen edge
 
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/20241a30-a7c5-4430-a6b5-ad65433005f9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/20241a30-a7c5-4430-a6b5-ad65433005f9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :::note important
 
@@ -38,12 +38,12 @@ If you're interested in a Sidebery configuration be sure to check out the docume
 ### ultima.sidebar.seperator
 
 This setting seperates the vertical tab bar and sidebar to opposite sides of the browser
-<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/537f41b0-f43f-466f-b24c-dc8519c99f46" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/537f41b0-f43f-466f-b24c-dc8519c99f46" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.sidebery.expandon.inactive.windows
 
 When using sidebery autohide, this setting will keep the sidebar expanded when the browser window is inactive (not in focus)
-<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/ba481ce4-957a-4c06-a198-ce239be939f9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="75%" height="355" src="https://github.com/user-attachments/assets/ba481ce4-957a-4c06-a198-ce239be939f9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### user.theme.xtension.sidebery
 

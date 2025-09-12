@@ -34,7 +34,7 @@ This <ins>only works with</ins> ExpandOnHover `on` for Vertical Tabs.
    - `Optional` To keep the verttabbar accessible. Enable `ultima.tabs.vertical.hide.in.screencorner` to have them hide in bottom screen corner.
    - `Optional` Turn off `ultima.sidebar.revamped.hide.when.horizontal` if the revamped sidebar is still visible.
 
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/20241a30-a7c5-4430-a6b5-ad65433005f9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/20241a30-a7c5-4430-a6b5-ad65433005f9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- https://github.com/user-attachments/assets/20241a30-a7c5-4430-a6b5-ad65433005f9 -->
 
@@ -61,7 +61,4 @@ If you scroll down to `Other` in the Sidebery Style Editor. FF Ultima `uc` varia
 
 # That's all
 
-<iframe width="100%" height="490" autoplay="false" src="https://github.com/user-attachments/assets/38df6a16-157e-4378-b340-cdda5d48b2ba" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-<!-- https://github.com/user-attachments/assets/38df6a16-157e-4378-b340-cdda5d48b2ba -->
+<iframe width="100%" height="490" autoplay="false" src="https://www.youtube.com/embed/xtUBmixQHvo?si=sbwFFhKCRRK4OeaR" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

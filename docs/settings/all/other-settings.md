@@ -23,21 +23,21 @@ description: Wallpapers, spacing, context menu's, colors, icons
 <summary>Custom Wallpapers</summary>
 
 - `user.theme.wallpaper` settings allow you to force a specific wallpaper for the new tab page. try to use only one.
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/f2d564fb-5382-4696-a219-660c6b96c8ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/f2d564fb-5382-4696-a219-660c6b96c8ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 <details>
 <summary>user.theme.xtension.swap.addon.colors</summary>
 
 Use `user.theme.xtension.swap.addon.colors` to swap add-on theme colors.
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 <details>
 <summary>ultima.spacing.compact</summary>
 
 - Removes borders, rounding, shrinks tabs by a tiny percentage
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/22489b0c-3b99-48ed-897b-e2926e6672bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/22489b0c-3b99-48ed-897b-e2926e6672bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 <details>

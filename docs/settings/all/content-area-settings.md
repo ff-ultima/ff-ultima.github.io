@@ -13,17 +13,25 @@ description: Content area spacing, compact spacing, new tab page, context menu, 
 
 ### ultima.scrollbar.thin
 
-> By [mrodyhin](https://github.com/mrodyhin)
+> By [mrodyhin](https://github.com/mrodyhin), [#368](github.com/soulhotel/FF-ULTIMA/pull/368)
 
 Forces a more *thin* scroll bar for the content area, very useful for Windows 10 Users
 
-<img width="70%" alt="image" src="https://github.com/user-attachments/assets/08a516f8-6b92-43ae-9045-7e1e43979259" />
+<img width="85%" alt="image" src="https://github.com/user-attachments/assets/08a516f8-6b92-43ae-9045-7e1e43979259" />
+
+### ultima.spacing.compact.addonmanager
+
+> Submitted by [dreadbalaur](https://github.com/dreadbalaur)
+
+Makes the addon manager & themes page a compact grid layout
+
+![compactaddon](https://github.com/user-attachments/assets/9f038884-f672-49ef-8108-db58809cdddc)
 
 ### ultima.spacing.compact
 
 Removes all borders and rounding for the content area, also shrinks tabs by a tiny percentage
 
-<iframe width="85%" height="500" src="https://github.com/user-attachments/assets/22489b0c-3b99-48ed-897b-e2926e6672bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="85%" height="500" src="https://github.com/user-attachments/assets/22489b0c-3b99-48ed-897b-e2926e6672bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.spacing.relaxed
 
@@ -50,14 +58,3 @@ This makes the elements of the new tab page more rounded, with shortcuts becomin
 The private-browsing Home Pages strong purple background is removed, text removed, less is more sometimes.
 
 ![image](https://github.com/user-attachments/assets/aca4afd4-8bdb-47b5-98e9-7bcfddd68a23)
-
-### ultima.spacing.compact.addonmanager
-
-Submitted by [dreadbaluar](https://github.com/dreadbaluar)
-
-Makes the addon manager & themes page a compact grid layout
-
-![compactaddon](https://github.com/user-attachments/assets/9f038884-f672-49ef-8108-db58809cdddc)
-
-
-

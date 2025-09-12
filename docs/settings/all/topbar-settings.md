@@ -10,7 +10,7 @@ description: Nav bar, Bookmarks toolbar, window controls, spacing, etc.
 ### ultima.navbar.autohide
 
 Autohide the navigation bar. It remains visible when the url bar is focused, or if interior menu popups are focused
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/998fb2ef-3eca-4d0a-ab2e-76dec44cc15f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/998fb2ef-3eca-4d0a-ab2e-76dec44cc15f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.navbar.float
 
@@ -50,14 +50,14 @@ Makes the bookmarks toolbar scrollable. This can be used by dragging the scrollb
 
 To autohide the bookmarks toolbar on hover
 
-<iframe width="80%" height="409" src="https://github.com/user-attachments/assets/ab5fc9d5-0114-4ba9-8d07-4fbc8b27b541" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="80%" height="409" src="https://github.com/user-attachments/assets/ab5fc9d5-0114-4ba9-8d07-4fbc8b27b541" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.navbar.bookmarks.position
 
 This setting controls the positioning of the bookmark toolbar items, from `left` to `center` to `right`. Position "right", only really applies for a floating bookmarks toolbar.
 
 <img width="80%" src="https://github.com/user-attachments/assets/6c4b40e1-bf76-4c28-84f3-f8d4260a6485" />
-<iframe width="80%" height="409" src="https://github.com/user-attachments/assets/00f8dee9-64dc-4c7f-8531-0c856c78d6db" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="80%" height="409" src="https://github.com/user-attachments/assets/00f8dee9-64dc-4c7f-8531-0c856c78d6db" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### ultima.navbar.bookmarks.float

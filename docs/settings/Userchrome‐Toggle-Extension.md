@@ -9,7 +9,7 @@ description: userChrome toggle integration
 
 This is [userChrome Companion](https://github.com/soulhotel/userChrome-Companion). *Instead of* relying on the **about:config** page and **user.js**, I see a future where FF Ultima could work alongside userChrome Companion. Depending on the development of`UCC and how much **easier** it is for both you and me, it can become a possibility.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Mz7gmYP2_1A?si=yFXIz28cHv5bEj-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Mz7gmYP2_1A?si=yFXIz28cHv5bEj-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--
 https://github.com/user-attachments/assets/3aeadb12-dd2a-403b-a31f-0cb5784489ba

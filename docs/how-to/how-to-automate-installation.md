@@ -91,9 +91,30 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iex (irm 'https://raw.gi
   `--'   `--'
 ```
 
+<details>
+<summary>Video Demonstration, on Mac</summary>
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/jDK7I6Ph3gU?si=r0GY5Q2bORHXIP0l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+
+<details>
+<summary>Video Demonstration, on Windows</summary>
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/yc3xRjVgR8A?si=i9f2GeJpw482P_Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+
+<details>
+<summary>Video Demonstration, on Linux</summary>
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/Cb350ZcjUu0?si=e47U7IxmFFFokZC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
 
 ## With git userChrome (application)
 
-gituserChrome automates the installation & update of userChrome themes in several ways. It handles downloading Themes, saving them, and managing them between Profiles, Firefoxs (Firefox variants, Librewolf, Zen, Floorp), and Operating Systems. Checkout gituserChrome [here](https://github.com/soulhotel/git-userChrome).
+gituserChrome automates the installation & update of userChrome themes in several ways. It handles downloading Themes, saving them, and managing them between Profiles, Firefoxs (Firefox variants, Librewolf, Zen, Floorp), and Operating Systems. Installing a theme can be done in as little as 30 seconds, and even in 1 click. Learn more about gituserChrome [here](https://github.com/soulhotel/git-userChrome).
+
+### Video Demonstration, gituserChrome GUI
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/DoCV8gEnL7k?si=GQDY_ThHPlwTgCqz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <img alt="b" src="https://github.com/user-attachments/assets/fb6d1828-335f-44b5-bd84-fcc374756632" />
