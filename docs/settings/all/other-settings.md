@@ -7,9 +7,9 @@ description: Wallpapers, spacing, context menu's, colors, icons
 
 > Theme settings are accessible via the `about:config` page. Type `ultima` or `user.theme` to get started.
 
-- Looking for [color scheme settings? ->](https://github.com/soulhotel/FF-ULTIMA/wiki/Color-Schemes)
-- Looking for [transparent theming? ->](https://github.com/soulhotel/FF-ULTIMA/wiki/Transparent-Theming)
-- Looking for [adaptive tab color? ->](https://github.com/soulhotel/FF-ULTIMA/wiki/Adaptive-Tab-Color-Configuration)
+- Looking for [color scheme settings? ->](/docs/category/color-schemes)
+- Looking for [transparent theming? ->](/docs/color-schemes/transparent#support-for-mica-or-blurred-windows)
+- Looking for [adaptive tab color? ->](/docs/settings/adaptive-tab-color)
 
 <!--
 -----------------------------------------------------------------------------------------------------------------------

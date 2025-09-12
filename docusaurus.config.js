@@ -17,10 +17,10 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
   url: 'https://ff-ultima.github.io',
-  baseUrl: '/wiki/',
+  baseUrl: '/',
   trailingSlash: false,
   organizationName: 'ff-ultima',
-  projectName: 'wiki',
+  projectName: 'ff-ultima.github.io',
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ff-ultima/ff-ultima.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
