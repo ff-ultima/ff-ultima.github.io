@@ -104,11 +104,25 @@ when using with vertical tabs, you can change the positioning of the new tab but
 
 ### ultima.tabs.tabgroups
 
-You can choose one style for tabgroup labels with: `ultima.tabs.tabgroups.label`
-<iframe width="60%" height="300" src="https://github.com/user-attachments/assets/7993504b-6599-4d5e-b1c3-f8d029cb2eb6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Tab groups are styled in two seperate ways. Choose only one label style.
 
-You can style the background for the tabs in a tab group with `ultima.tabs.tabgroups.label`. These can be combined.
-<img src="https://github.com/user-attachments/assets/a5cfc33c-9627-48b7-8c96-798912b0a68e" width="30%" />
+- tabgroups.label.1 is a circular style
+- tabgroups.label.2 is a compact pill style label 
+- tabgroups.label.3 is an arrow dropdown style
+
+<img width="30%" src="/img/settings/tabgrouplabels.gif" />
+
+>
+Tab group backgrounds are more flexible. They can be used seperately or combined.
+
+- tabgroups.background.1 is a full tab group colored background
+- tabgroups.background.2 is an animated gradient background
+- tabgroups.background.3 is the default tab group line background
+- tabgroups.background.4 seperates the tabs in a dotted border
+
+<img width="30%" src="/img/settings/tabgroupbackgrounds.gif" />
+
+<img src="https://github.com/user-attachments/assets/a5cfc33c-9627-48b7-8c96-798912b0a68e" width="28.5%" />
 
 ### ultima.xstyle.containertabs
 
