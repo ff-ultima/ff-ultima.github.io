@@ -16,7 +16,9 @@ function HomepageHeader() {
       <div className="container">
         <img src="./img/preview.gif"></img>
         <p className="hero__subtitle">{siteConfig.tagline}..</p>
-        <DocButton /><LatestReleaseButton /> <NeedHelpButton />
+        <div className={styles.buttonRow}>
+          <DocButton /><LatestReleaseButton /> <NeedHelpButton />
+        </div>
       </div>
     </header>
   );
