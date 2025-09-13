@@ -5,10 +5,6 @@ description: Using add-on themes (extensions) in FF Ultima
 
 # Firefox Add On Themes
 
-:::note
-This video is a bit outdated, but the concept remains the same.
-:::
-
 ## How add-on themes look in FF Ultima
 
 Here's a couple of add-on themes being used in the theme, to get an idea on what to expect.
@@ -30,5 +26,9 @@ By restricting FF Ultima's color schemes to a non-lw-theme state, Firefox add-on
 Use `user.theme.xtension.swap.addon.colors` to swap add-on theme colors.
 
 Use `ultima.spacing.compact` for add-on themes that fail to keep the same background for the window and the nav bar.
+
+:::note
+This video is a bit outdated, but the concept remains the same.
+:::
 
 <iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
