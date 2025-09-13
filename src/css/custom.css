@@ -42,6 +42,10 @@
   }
 }
 
+footer {
+  display: none !important;
+}
+
 @layer docusaurus.infima {
 
   html[data-theme="dark"] {
@@ -67,3 +71,5 @@
   }
   
 }
+
+

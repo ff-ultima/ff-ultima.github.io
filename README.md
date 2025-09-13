@@ -1,6 +1,6 @@
 # Wiki
 
-Upon completion, the [FF Ultima Wiki](https://github.com/soulhotel/ff-ultima/wiki) will be moved to this static site: https://ff-ultima.github.io/wiki/.
+Upon completion, the [FF Ultima Wiki](https://github.com/soulhotel/ff-ultima/wiki) will be moved to this static site: https://ff-ultima.github.io.
 
 # Website
 

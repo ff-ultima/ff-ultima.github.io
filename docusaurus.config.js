@@ -77,17 +77,26 @@ const config = {
         },
         items: [
           {
+            label: 'Documentation',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
           },
           {
-            href: 'https://github.com/soulhotel/ff-ultima',
             label: 'GitHub',
+            href: 'https://github.com/soulhotel/ff-ultima',
             position: 'left',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            label: 'Blog',
+            to: '/blog',
+            position: 'left'
+          },
+          {
+            label: 'Download',
+            href: 'https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest',
+            position: 'left', // or 'right' if you want it on the right side
+          },
           {
             type: 'localeDropdown',
             position: 'right',
@@ -96,47 +105,47 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Helpful Documentation',
-                to: '/docs/getting-started',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Github',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Issues',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Discussions',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Helpful Documentation',
+        //         to: '/docs/getting-started',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'Github',
+        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //       },
+        //       {
+        //         label: 'Issues',
+        //         href: 'https://discordapp.com/invite/docusaurus',
+        //       },
+        //       {
+        //         label: 'Discussions',
+        //         href: 'https://x.com/docusaurus',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'More',
+        //     items: [
+        //       {
+        //         label: 'Blog',
+        //         to: '/blog',
+        //       },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/facebook/docusaurus',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} soulhotel.`,
       },
       prism: {
