@@ -35,6 +35,12 @@ For stability, `ultima.tabs.vertical.hide` is reliant on ExpandonHover being `ON
 If you're interested in a Sidebery configuration be sure to check out the documentation [here](../sidebery)
 :::
 
+### ultima.sidebar.revamped.hide.when.horizontal
+
+When `on`, this setting will completely remove the extra sidebar when using horizontal tabs. When `off`, it keeps the revamped sidebar visible even when using Horizontal Tabs.
+
+<img width="150" src="/img/settings/hiderevamped.png"/>
+
 ### ultima.sidebar.seperator
 
 This setting seperates the vertical tab bar and sidebar to opposite sides of the browser
