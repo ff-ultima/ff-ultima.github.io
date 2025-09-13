@@ -16,7 +16,7 @@ function HomepageHeader() {
       <div className="container">
         <img src="./img/preview.gif"></img>
         <p className="hero__subtitle">{siteConfig.tagline}..</p>
-        <LatestReleaseButton /> <NeedHelpButton />
+        <DocButton /><LatestReleaseButton /> <NeedHelpButton />
       </div>
     </header>
   );
@@ -68,5 +68,13 @@ function NeedHelpButton() {
     >
       Need More Help? ->
     </a>
+  );
+}
+
+function DocButton() {
+  return (
+    <Link className={styles.DocButton} to="/docs/getting-started">
+      View Help Docs ->
+    </Link>
   );
 }
