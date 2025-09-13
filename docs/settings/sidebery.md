@@ -49,11 +49,13 @@ This <ins>only works with</ins> ExpandOnHover `on` for Vertical Tabs.
 
 ![Screenshot_20250507_045918](https://github.com/user-attachments/assets/62ab45f8-fd58-4501-80c5-36a691986c1a)
 
-...
+Basically a top down format works best with FF Ultima's themed Sidebery. Pinned tabs on top, and Navigation horizontal or hidden.
+
+If you don't want to use these extension settings, you can always disabled `user.theme.xtension.sidebery` and theme Sidebery completely to your own preference.
 
 ## Personal Configurations
 
-If you ever want to change Sidebery theme, either change your Color Scheme `user.theme.` or turn off `user.theme.xtension.sidebery` to use default Sidebery (unmodified). You may be able to modify FF-Ultima's configuration in Sidebery's Style Editor too (untested).
+If you ever want to change the Sidebery theme, either change your Color Scheme `user.theme.` or turn off `user.theme.xtension.sidebery` to use default Sidebery (unmodified). You may be able to modify FF-Ultima's configuration in Sidebery's Style Editor too (untested).
 
 If you scroll down to `Other` in the Sidebery Style Editor. FF Ultima `uc` variables are recognized and editable. I haven't tested these much but it was surprising to see that Sidebery can detect them.
 
