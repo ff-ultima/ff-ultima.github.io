@@ -72,6 +72,12 @@ You can specify a tab outline color by typing in a color (or gradient). Leave em
 
 <img width="65%" src="https://github.com/user-attachments/assets/61fd57fb-1ab2-47fc-8115-d42e40056e07" />
 
+### ultima.tabs.not.a.progress.bar
+
+This setting simulates the tab loading strip you see on some websites like youtube, reddit, etc. It isn't actually a loading bar but it's consistent, and works by tracking the loading favicon for the loading/selected tab.
+
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/30b0bb91-1b37-4e61-b60b-62f3198ab572" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### ultima.tabs.vertical.hide (hiding the vertical tab bar)
 
 `ultima.tabs.vertical.hide` will hide vertical tabs completely (great for Sidebery setups)

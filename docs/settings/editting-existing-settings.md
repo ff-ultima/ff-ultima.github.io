@@ -5,9 +5,9 @@ description: Tips for tweaking/modifying existing settings
 
 # Editting existing settings
 
-> This page is mostly a compilation of *what can be* modifed and *how* within the source files. If you have an advanced understanding of CSS, then mostly anything can be modified when using your own judgement. And if you don't see something listed here, it just isn't documented yet.
+> This page is a list of *what can be* modifed and *how* within the source files. If you have an advanced understanding of CSS, then mostly anything can be modified when using your own judgement. And if you don't see something listed here, it just isn't documented yet.
 
-First, Users modifying the theme should familiarize themselves with the theme's structure. When looking in the chrome/theme folder you'll notice a very easy to read structure:
+#### When looking in the chrome/theme folder you'll notice a very easy to read structure:
 
 <details>
 <summary>theme structure tree</summary>
@@ -44,7 +44,7 @@ First, Users modifying the theme should familiarize themselves with the theme's 
 ```
 </details>
 
-Every setting/preference of the theme is organized within this file structure accordingly. `ultima.navbar` settings will be found in `settings-navbar.css`. `ultima.tabs` settings will be found in settings-TABS.css. `ffu.css` files are the foundation of the theme and should rarely be messed with (unless you know what you're doing). Inside of all these files, you'll find an index (a list at the top that points you to every section of code in the file). You can use `ctrl+f` to search for a specific section and it will bring you right to the relevant code. For example, if you ctrl+f "`tab groups labels`" it will bring you to all code related to all tab group label settings.
+Every setting/preference of the theme is organized within this structure accordingly. `ultima.navbar` settings will be found in `settings-navbar.css`. `ultima.tabs` settings will be found in settings-TABS.css. `ffu-xxx.css` files are the foundation of the theme and should rarely be messed with (unless you know what you're doing). Inside of all these files, you'll find an index (a list at the top that points you to every section of code in the file). You can use `ctrl+f` to search for a specific section and it will bring you right to the relevant code. For example, if you ctrl+f "`tab groups labels`" it will bring you to all code related to all tab group label settings.
 
 ## Animations
 
@@ -91,16 +91,18 @@ The [create a color scheme wiki](/docs/color-schemes/create-a-color-scheme) will
 
 ## Icons
 
-...
+### ...
+### ...
 
 ## Spacing
 
-- content area spacing
-- border radiuses
-- sidebar autohiding width when collapsed
+### content area spacing
+### border radiuses
+### sidebar autohiding width when collapsed
 
 ## Wallpapers
 
-...
+### ...
+### ...
 
 > Might be better to organize this by file > setting > animation, spacing, etc.
