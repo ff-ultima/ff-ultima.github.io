@@ -19,4 +19,4 @@ Preview:
 ![preview1](./p1.png)
 ![preview2](./p2.png)
 
-Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/Create-a-Color-Scheme) Wiki.
+Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/create-a-color-scheme) Wiki.

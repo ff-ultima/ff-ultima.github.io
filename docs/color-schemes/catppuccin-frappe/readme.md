@@ -18,5 +18,5 @@ To use this color scheme:
 Preview:
 ![preview](./preview.jpg)
 
-Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/Create-a-Color-Scheme) Wiki.
+Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/create-a-color-scheme) Wiki.
 
