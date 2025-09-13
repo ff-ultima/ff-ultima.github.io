@@ -10,21 +10,21 @@ You can find helpful documentation for almost everything related to FF Ultima he
 
 ## F.A.Q.
 
+### Theme Settings?
+
+Here's [a full list](./category/settings) of settings found in the theme.
+
 ### Compatibility?
 
-Every version of FF Ultima tries to stay compatible with Stable (Default Release) Firefox. And every new release will inform on Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 are compatible with Firefox 138 to 143. You can browse all of FF Ultima's releases and see compatibility yourself, [here](https://github.com/soulhotel/FF-ULTIMA/releases) (dating back to April 21, 2024; Version 1.6).
+Every version of FF Ultima tries to stay compatible with Stable (Default Release) Firefox. And every new release will inform you of Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 are compatible with Firefox 138 to 143. You can browse all of FF Ultima's releases and see compatibility yourself, [here](https://github.com/soulhotel/FF-ULTIMA/releases) (dating back to April 21, 2024; Version 1.6).
 
-FF Ultima also supports Firefox Nightly, which is usually 2 versions ahead of Stable. This is mostly done through an `ultima.enable.nightly.config` setting, it's basically a quick patch for upstream changes/fixes that haven't made their way to Default Firefox yet. It also allows Nightly Users (or Developer Edition Users, like me) to use the same version of the theme as everyone else.
-
-### Theme Settings
-
-Looking for a full [list of theme settings? ->](./category/settings)
+FF Ultima also supports Firefox Nightly, mostly through an `ultima.enable.nightly.config` setting. The setting is basically a quick patch for upstream changes/fixes that haven't made their way to Default Firefox yet. It also allows Nightly Users (or Developer Edition Users, like me) to use the same version of the theme as everyone else.
 
 ### My settings keep resetting 🙃!?
 
-- After following the [installation instructions](/docs/how-to/how-to-install), you should **not** have a user.js file inside of your Profile Folder.
-- The user.js file is a one-time thing, you only need it when installing the theme for the first time.
-- Or if the theme were to add new settings to the about:config page in an [updated release](/docs/how-to/how-to-update).
+After following the [installation instructions](/docs/how-to/how-to-install), you should **not** have a user.js file inside of your Profile Folder.
+
+The user.js file is a one-time thing, you only need it when installing the theme for the first time. Or if the theme were to add new settings to the about:config page in an [updated release](/docs/how-to/how-to-update).
 
 > ###### *The user.js file is responsible for adding user-preferences/custom-settings into your Firefox Browser, in this case, the custom settings that you can change within FF Ultima; When Firefox starts up, it reads the user.js file (inside of the Profile Folder) and takes all of the preferences inside of it. So, if you leave the user.js file in the Profile Folder, every time you restart Firefox these settings will be read over and over again, resetting the settings inside.*
 
