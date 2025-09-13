@@ -12,7 +12,7 @@ You can find helpful documentation for almost everything related to FF Ultima he
 
 ### Compatibility?
 
-Every version of FF Ultima tries to stay compatible with Stable (Default Release) Firefox. And every new release will informs you about Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 are compatible with Firefox 138 to 143. You can browse all of FF Ultima's releases and see compatibility [here](https://github.com/soulhotel/FF-ULTIMA/releases) (dating back to April 21, 2024; Version 1.6).
+Every version of FF Ultima tries to stay compatible with Stable (Default Release) Firefox. And every new release will inform on Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 are compatible with Firefox 138 to 143. You can browse all of FF Ultima's releases and see compatibility yourself, [here](https://github.com/soulhotel/FF-ULTIMA/releases) (dating back to April 21, 2024; Version 1.6).
 
 FF Ultima also supports Firefox Nightly, which is usually 2 versions ahead of Stable. This is mostly done through an `ultima.enable.nightly.config` setting, it's basically a quick patch for upstream changes/fixes that haven't made their way to Default Firefox yet. It also allows Nightly Users (or Developer Edition Users, like me) to use the same version of the theme as everyone else.
 
