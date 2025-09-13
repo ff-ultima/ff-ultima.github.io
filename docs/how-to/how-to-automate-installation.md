@@ -60,9 +60,9 @@ Start-Process "librewolf.exe"                  # restart librewolf
 Start-Sleep -Seconds 5; Set-Location ".."; Remove-Item "user.js" -ErrorAction SilentlyContinue
 ```
 
-## With git userChrome (script)
+## With git userChrome (one line install)
 
-This automated tool requires no download. It runs by fetching [gituserChrome](https://github.com/soulhotel/git-userChrome) and running the script globally. The script itself will locate all profile folders for you to choose from. It will backup any existing chrome folder for the selected profile, then git install the theme to a new chrome folder. It also handles restarting the browser selected & user.js clean up. Simply copy/paste the command for your operating system.
+This automated tool requires no download. It runs by fetching [gituserChrome](https://github.com/soulhotel/git-userChrome) and running the script globally. Be sure to look at the [code](https://github.com/soulhotel/git-userChrome/tree/main/scripts) yourself before running the command and check out the video demonstration as well (below).
 
 > P.S. git userChrome is even more advanced when used as a GUI.
 

@@ -6,21 +6,27 @@ sidebar_position: 1
 
 You can find helpful documentation for almost everything related to FF Ultima here. IF you still can't find what you're looking for, [post an issue](https://github.com/soulhotel/FF-ULTIMA/issues?q=is%3Aissue) on Github. Issues are addressed/answered anywhere between 1 hour to 1 day.
 
-### Looking for a full [list of theme settings? ->](./category/settings)
-
 ![gif](https://github.com/user-attachments/assets/dc1882e6-6543-41bd-aff7-ded2b96ffb97)
 
 ## F.A.Q.
 
+### Compatibility?
+
+Every version of FF Ultima tries to stay compatible with Stable (Default Release) Firefox. And every new release will informs you about Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 are compatible with Firefox 138 to 143. You can browse all of FF Ultima's releases and see compatibility [here](https://github.com/soulhotel/FF-ULTIMA/releases) (dating back to April 21, 2024; Version 1.6).
+
+FF Ultima also supports Firefox Nightly, which is usually 2 versions ahead of Stable. This is mostly done through an `ultima.enable.nightly.config` setting, it's basically a quick patch for upstream changes/fixes that haven't made their way to Default Firefox yet. It also allows Nightly Users (or Developer Edition Users, like me) to use the same version of the theme as everyone else.
+
+### Theme Settings
+
+Looking for a full [list of theme settings? ->](./category/settings)
+
 ### My settings keep resetting 🙃!?
 
-- After following the [installation instructions](https://github.com/soulhotel/FF-ULTIMA#installation), you should **not** have a user.js file inside of your Profile Folder.
+- After following the [installation instructions](/docs/how-to/how-to-install), you should **not** have a user.js file inside of your Profile Folder.
 - The user.js file is a one-time thing, you only need it when installing the theme for the first time.
-- Or if the theme were to add new settings to the about:config page in an [updated release](https://github.com/soulhotel/FF-ULTIMA/wiki/How-to-Update-the-Theme).
+- Or if the theme were to add new settings to the about:config page in an [updated release](/docs/how-to/how-to-update).
 
 > ###### *The user.js file is responsible for adding user-preferences/custom-settings into your Firefox Browser, in this case, the custom settings that you can change within FF Ultima; When Firefox starts up, it reads the user.js file (inside of the Profile Folder) and takes all of the preferences inside of it. So, if you leave the user.js file in the Profile Folder, every time you restart Firefox these settings will be read over and over again, resetting the settings inside.*
-
----
 
 ### What does FF Ultima have to offer?
 
@@ -64,10 +70,10 @@ FF Ultima cycles between dark and light mode themes depending on your System's C
 
 ### Why user.js?
 
-Freedom of choice. While many CSS themes can go far and beyond, a lot of the time they leave the user stuck with one way, one look, take it or leave it. That isn't the case for FF Ultima.
+Freedom of choice. While many CSS themes can go far and beyond, a lot of the time they leave the user stuck with one way, one look, take it or leave it. That isn't the case for this one.
 
 Using the user.js approach, by query of preferences in the about:config page, makes it a lot easier for you and any other person to quickly switch between different layouts or toggle one style on/off. While the alternative would be you having to close Firefox, edit theme files manually, maybe swap one file for another, *every time* you want to change how something looks.
 
-User.js makes the Creation & Use of different layouts much easier to manage. Where `navbar.autohide` wont interfere with `bookmark.autohide`, and `sidebar.autohide` wont interfere with `tabs.vertical.hide`. And if you just don't want to see window controls right now... Turn `ultima.disable.windowcontrols.button` `on` and keep browsing.
+User.js makes the Creation & Use of different layouts much easier to manage. Where `navbar.autohide` wont interfere with `bookmark.autohide`, and `sidebar.autohide` wont interfere with `tabs.vertical.hide`. And if you just don't want to see window controls right now... Turn `ultima.disable.windowcontrols.button` `on` and keep browsing. It's convenient.
 
-For those who want to create Firefox themes, its helpful for organizing the functionality of certain preferences like sidebery.autohide all in one place. A lot of FF Ultima's settings can be easily copied into your own themes without the moz preference query.
+And for those who want to create Firefox themes, when browsing the source you'll notice alot of the functionalities are indexed and organized by "setting". So seperating them and even copying them is a lot easier. And a lot of the themes features can definitely be copied into your own theme without the moz preference query.
