@@ -87,7 +87,7 @@ Already noted in the source, but the first transition controls the animation for
 
 ## Color Schemes
 
-The [create a color scheme wiki](/docs/create-a-color-scheme) will teach you everything you need to know about editting color-schemes, you can even make your own personal copy of an existing color scheme and use it like all of the others.
+The [create a color scheme wiki](/docs/color-schemes/create-a-color-scheme) will teach you everything you need to know about editting color-schemes, you can even make your own personal copy of an existing color scheme and use it like all of the others.
 
 ## Icons
 
