@@ -63,26 +63,30 @@ You can use `find & replace` (ctrl+f) to add your theme into the lists, or do it
 
 ## Editting the Color Scheme (Part 1)
 
-In `chrome/theme/color-schemes`, <ins>**copy**</ins> one of the color schemes that you want to use as a foundation. I recommend `default` if you want more control. And `catppuccin` if you only want to setup colors. For this example, I'm going to assume you are working with `default`. All files follow the same format.
+In `chrome/theme/color-schemes`, <ins>**copy**</ins> one of the color schemes that you want to use as a foundation. I recommend `default` if you want more control. And `catppuccin` if you only want to setup colors. For this example, I'm going to assume you are working with `default`. All files follow the same format, so whatever foundation you choose, you'll be able to follow along.
 
-- Make a copy of the `default` folder, and name it your theme (example: `soho`).
-- Inside of the `soho/` folder, you'll find `ffu-colorscheme.css`, open it in a text editor.
-- These lines in the file are all you need to create a color scheme:
+1. Make a copy of the `default/` folder, and change the copies name to the name of your theme (example: `soho`).
+2. Inside of the newly made `soho/` folder, you'll find `ffu-colorscheme.css`, open it in a text editor.
+3. These lines in the file are all you need to create a color scheme:
     - `Line 4 •` File Desc: `soho` color scheme.
     - `Line 17 to 43 •` all the colors for dark mode.
     - `Line 48 to 74 •` all the colors for light mode.
-- You can honestly edit all the colors here and be finish. But it doesn't make sense to do this blind. So let me show you how to create a color scheme live in Firefox. But I recommend doing this before we continue: On Line 17, edit `--uc-browser-color` right now. Replace the color with `red`. You'll see why later.
 
-<img src="https://github.com/user-attachments/assets/79c5383b-4f06-469c-8de0-26c0432372e4" width="32%" />
-<img src="https://github.com/user-attachments/assets/bdf175d4-fb32-4963-bf29-f7fa45002132" width="32%" />
-<img src="https://github.com/user-attachments/assets/918b279c-bd51-4d15-94df-2304f250206c" width="32%" />
+These lines above are all you need to create a color scheme, and lines beyond that are for finer adjustments and other custom modifications. I recommend creating the color scheme inside of Firefox rather than a text editor. That way you can setup the colors and modifications live and view teh changes in real-time. I'll show you how below.
+
+I also recommend doing this before we continue: On Line 17, edit `--uc-browser-color`, change it to `red`. You'll see why later.
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/6dLPyCBM16E?si=jnHjDpoiHAFrfq5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Editting the Color Scheme (Part 2)
+
 All that's left is to setup the colors. The best way to do that is live, inside of Firefox. We'll be doing this with the help of Firefox's built-in Browser Toolbox. You can close the theme files. And Start (Restart) Firefox to continue.
 
 - In Firefox, go to the about:config page and make sure your theme (example: `soho`) is turned on.
 - Only your colorscheme should be on. Turn other colorschemes off.
 - If you followed my recommendation in `Part 1`, your Browser should now be red.
+
+> replace previews
 
 <img src="https://github.com/user-attachments/assets/7dc5346f-7093-4433-9911-d23a33af1c26" width="48%" />
 <img src="https://github.com/user-attachments/assets/51eb4629-5055-4f20-a0ea-8cfcab30c715" width="48%" />
