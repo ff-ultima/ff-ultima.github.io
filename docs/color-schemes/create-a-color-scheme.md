@@ -9,41 +9,57 @@ A Detailed Guide for creating Color Schemes in FF Ultima 3.0+
 
 ## Color Scheme Overview
 Color Schemes are centralized to 3 files.
-1. `ffu-internal-appearance.css •` controls the default look of FF Ultima.
-    - This controls the default ff ultima look, even when not using a color scheme.
-    - Colorschemes override the colors in this file to create themes.
-    - You don't need to worry about this file.
-2. `ffu-colorscheme.css •` controls how a color scheme will look.
-    - each color scheme can be found in chrome/theme/color-schemes/example/`ffu-colorscheme.css`
-    - the colorscheme file basically overwrites the color of the browser using color variables.
-    - the colorscheme files can do lots more too, like using its own icons, borders, etc.
-3. `apply-cs.css •` takes all the colors from the the colorscheme file and makes them available to:
-    - the browser
-    - extensions & all websites
-    - & wallpapers
-4. So `ffu-colorscheme.css` makes a color scheme & `apply-cs.css` applies it everywhere.
 
-## Let's create a Color Scheme
-The entire process for creating a theme is this:
-1. Come up with a name, for this example let's do: `soho`
-2. Add the theme name into `apply-cs.css`
-3. <ins>**Copy**</ins> one of the existing colorschemes so that you can turn it into `soho`
-4. Then edit the colors
-> You can name the theme anything, even your own name
+<details>
+<summary>1. ffu-internal-appearance.css</summary>
+
+This file is the foundation for FF Ultima's custom appearance. All color-schemes are built on top of this custom appearance by overriding colors, borders, shadows, and more. You actually do not need to worry about this file.
+</details>
+
+<details>
+<summary>2. ffu-colorscheme.css</summary>
+
+Each color scheme has a `chrome/theme/color-schemes/folder`. Inside of this folder you will find a `ffu-colorscheme.css` file. To create your own color scheme, you will essentially need to recreate this structure, for your own theme.
+</details>
+
+<details>
+<summary>3. apply-cs.css</summary>
+
+This file connects all color-schemes to the browser, by importing them in a series of 3 list.
+- the browser
+- extensions & all websites
+- & wallpapers
+</details>
+
+
+## How to Create a Color Scheme
+
+The entire process for creating a theme is simple:
+
+1. Come up with a name for the color scheme, you can even name it after yourself. For this example, let's do: `soho`
+2. Add the scheme to the list of other schemes in `apply-cs.css`
+3. Also add the scheme to the list in `user.js`
+4. Copy an existing color-scheme folder, and turn it into `soho`
+5. Edit the colors
+
+Below you'll find a detailed breakdown of the full process.
+
 
 ## Enabling your Color Scheme
-If you haven't already, open the `chrome/theme/color-schemes` folder. And open `apply-cs.css` in any text editor.
-- `apply-cs.css` has 3 list, these list make the theme available to:
-    - the browser
-    - extensions & websites
-    - & wallpapers
-    - replace "YourName" with the name of your theme. (there are 5 YourName's)
-    - replace "YourWallpaper" with your a wallpaper if you want to.
-    - I highly recommend using `find & replace` (ctrl+f) to replace "YourName" all at once.
 
-<img src="https://github.com/user-attachments/assets/5d3e06e9-22aa-4179-b76e-3669289dafdd" width="48%" />
-<img src="https://github.com/user-attachments/assets/dc55ab76-727a-499d-85ad-d5022f94b2ea" width="48%" />
+> If you haven't already, open the `chrome/theme/color-schemes` folder. And open `apply-cs.css` in any text editor.
 
+`apply-cs.css` has 3 list, these list make the theme available to:
+- the browser
+- extensions & websites
+- & wallpapers
+
+You can use `find & replace` (ctrl+f) to add your theme into the lists, or do it manually:
+
+- replace "YourName" with the name of your theme. (there are 5 YourName's)
+- replace "YourWallpaper" with a wallpaper if you want to. (use existing wallpapers or add your own)
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/k_LDUiQFHy4?si=CggHPUiLrNU6vyPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Editting the Color Scheme (Part 1)
 
