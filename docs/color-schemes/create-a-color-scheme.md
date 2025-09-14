@@ -72,7 +72,7 @@ In `chrome/theme/color-schemes`, <ins>**copy**</ins> one of the color schemes th
     - `Line 17 to 43 •` all the colors for dark mode.
     - `Line 48 to 74 •` all the colors for light mode.
 
-These lines above are all you need to create a color scheme, and lines beyond that are for finer adjustments and other custom modifications. I recommend creating the color scheme inside of Firefox rather than a text editor. That way you can setup the colors and modifications live and view teh changes in real-time. I'll show you how below.
+These lines above are all you need to create a color scheme, and lines beyond that are for finer adjustments and other custom modifications. I recommend creating the color scheme inside of Firefox rather than a text editor. That way you can setup the colors and modifications live and view your changes in real-time. I'll show you how below.
 
 I also recommend doing this before we continue: On Line 17, edit `--uc-browser-color`, change it to `red`. You'll see why later.
 
