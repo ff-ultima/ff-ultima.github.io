@@ -20,7 +20,7 @@ Below you'll find the commands and tools that work with all operating systems.
 
 > It is safe to copy & paste this entire block, but please observe the code and fill in your specific details
 
-```bash title="bash (linux/mac)"
+```sh title="bash (linux/mac)"
 # download theme
 cd ~/.mozilla/firefox/YourProfileFolder
 git clone https://github.com/soulhotel/FF-ULTIMA.git chrome
@@ -67,12 +67,12 @@ This automated tool requires no download. It runs by fetching [gituserChrome](ht
 > P.S. git userChrome is even more advanced when used as a GUI.
 
 ###### LINUX ([BASH SCRIPT](https://github.com/soulhotel/git-userChrome)):
-```
+```sh
 bash <(curl -s https://raw.githubusercontent.com/soulhotel/git-userChrome/main/scripts/gituserChrome.sh)
 ```
 
 ###### WINDOWS ([POWERSHELL SCRIPT](https://github.com/soulhotel/git-userChrome)):
-```
+```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -Command "iex (irm 'https://raw.githubusercontent.com/soulhotel/git-userChrome/main/scripts/gituserChrome.ps1')"
 ```
 
