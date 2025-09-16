@@ -51,7 +51,9 @@ to hide the update dot that appears on unselected tabs
 
 ### ultima.tabs.always.show.pinned
 
-to force the pinned tab container to always show all pinned tabs
+To put it simply, this setting forces the `pinned tab container` to <ins>always show all</ins> pinned tabs. Removing the scrolling limit.
+
+<img width="92%" src="/img/settings/alwaysshowpinned.png" />
 
 ### ultima.tabs.multiline.labels
 
