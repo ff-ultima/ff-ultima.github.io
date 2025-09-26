@@ -42,6 +42,12 @@ This hides the buttons within the urlbar, off hover
 
 <img width="85%" src="../../../img/settings/urlbarhidebuttons.gif" />
 
+### ultima.urlbar.hide.buttons.in.edge
+
+Like urlbar.hide.buttons, this hides the action buttons within the url bar, until hovering the select area
+
+<img width="85%" src="../../../img/settings/urlbarhidebuttonsedge.gif" />
+
 ### ultima.urlbar.hide.searchsuggestions
 
 This hides the "This time search with" url bar suggestions, when used with the new "bonnet" switcher, it hides that.

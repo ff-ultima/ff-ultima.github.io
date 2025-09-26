@@ -23,6 +23,7 @@ This is not a "setting" but an "action" that some users may find helpful. To aut
 ### ultima.tabs.belowURLbar
 
 When using horizontal tabs, toggle between tabs on top, or tabs under the urlbar
+
 <img width="85%" src="../../../img/settings/tabsbelow.gif" />
 
 ### ultima.tabs.closetabbutton.on.icon
@@ -36,6 +37,10 @@ Hovering over a tabs icon will present the "close tab" button
 This hides the `all tabs` button that is always on the Navigation Bar
 
 ![disablealltabs](https://github.com/user-attachments/assets/655cb288-16e1-4474-945a-8c182f668560)
+
+### ultima.tabs.disable.scrollbar
+
+This setting hides the scrollbar within the vertical tabs container
 
 ### ultima.spacing.compact.tabs
 

@@ -43,7 +43,7 @@ p {
 
 .DocButton, .latestReleaseButton, .IssueButton {
   display: inline-block;
-  padding: 2em 4em;
+  padding: 1.2em 4em;
   margin-top: 1em;
   color: var(--ifm-color-content);
   border-radius: 10px;

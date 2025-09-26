@@ -18,7 +18,7 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
  <summary>Finding your Profile Folder (where the theme files go)</summary>
 
 1. Go to the about:support page/url.
-2. Open directory
+2. <kbd>Open directory</kbd>
 3. This takes you to your profile folder, typically named "default.release"
 
 <img src="https://github.com/user-attachments/assets/e520eb35-f09c-4925-92f6-44be4ec18d51" width="850" />
@@ -30,7 +30,7 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 
 1. Go to the about:profiles page/url.
 2. If you have multiple firefox profiles, make sure you are working with the right one.
-3. Open directory
+3. <kbd>Open directory</kbd>
 4. This takes you to your profile folder, typically named "default.release"
  
 <img src="https://github.com/user-attachments/assets/8e58c276-1015-436d-8414-6d4db3a4be4b" width="850" />
@@ -66,19 +66,16 @@ After installing the theme, it's important that you <ins>do **not** keep the use
 <details>
 <summary>Post Installation Checklist</summary>
 
-- Go to `about:config` and search for `ultima` to see all of your settings. You should also see:
+Go to `about:config` and search for `ultima` to see all of your settings. You should also see:
+
 ![image](https://github.com/user-attachments/assets/7c3c1fb9-8080-4823-9994-23e6af91498e)
 
-- Also important to know that the `user.js` file only needs to be applied in two scenarios:
-    - It's your first time installing the theme.
-    - Or the [release page](https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest) says "`user.js required`" for new settings/versions of the theme.
-
-- Visit [the Wiki](https://github.com/soulhotel/FF-ULTIMA/wiki) to learn more about what is possible:
-    - Frequently asked questions
-    - All theme settings (previews & explanations)
-    - How to install, [uninstall](https://github.com/soulhotel/FF-ULTIMA/wiki/How-to-Uninstall-the-Theme), [update](https://github.com/soulhotel/FF-ULTIMA/wiki/How-to-Update-the-Theme)
-    - Sidebery configuration (optional)
-    - Videos, documentation, and a whole lot more..
+Browse the Wiki to learn more about what can be done:
+- [Frequently asked questions](/docs/getting-started#faq)
+- [All theme settings](/docs/category/settings) (previews & explanations)
+- [How to update, uninstall, update](/docs/category/how-to)
+- [Sidebery configuration](/docs/settings/sidebery) (optional)
+- Videos, documentation, and more..
 </details>
 
 ## Video Demonstrations

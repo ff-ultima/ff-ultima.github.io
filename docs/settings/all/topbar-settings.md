@@ -10,12 +10,21 @@ description: Nav bar, Bookmarks toolbar, window controls, spacing, etc.
 ### ultima.navbar.autohide
 
 Autohide the navigation bar. It remains visible when the url bar is focused, or if interior menu popups are focused
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/998fb2ef-3eca-4d0a-ab2e-76dec44cc15f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="570" src="https://github.com/user-attachments/assets/998fb2ef-3eca-4d0a-ab2e-76dec44cc15f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.navbar.float
 
 Like navbar autohide, this autohides the navigation bar, in a floating style
+
 <img width="98%" alt="fluent" src="https://github.com/user-attachments/assets/be397407-ecc0-43f5-bfbe-821777605f13" />
+
+### ultima.navbar.float.fullsize
+
+Like navbar float, but the navbar takes up as much width as possible.
+
+> This setting isn't really ideal for a vertical tab setup, as you can see with how the elements overlap in the image below. Smooth sailing for horizontal tabs though.
+
+<img width="98%" alt="fluent" src="/img/settings/navbarfloatfullsize.png" />
 
 ### ultima.navbar.hidebuttons
 

@@ -49,8 +49,9 @@ footer {
 @layer docusaurus.infima {
 
   html[data-theme="dark"] {
-    --ifm-background-surface-color: #1f1f22;
-    --ifm-footer-background-color: #1f1f22;
+    background:rgb(25, 25, 27);
+    --ifm-background-surface-color: rgb(26, 26, 28);
+    --ifm-footer-background-color: rgb(25, 25, 27);
   }
   html[data-theme="light"] {
     --ifm-background-surface-color: rgb(252, 252, 252);

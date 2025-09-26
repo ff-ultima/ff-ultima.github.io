@@ -18,7 +18,33 @@ Below you'll find the commands and tools that work with all operating systems.
 2. Or in the terminal, navigate to your profiles chrome folder.
 3. In the terminal, git clone the repo to install/update to the latest version
 
-> It is safe to copy & paste this entire block, but please observe the code and fill in your specific details
+> It is safe to copy & paste from the code block below, but please observe the code and fill in your specific details
+
+<details>
+<summary>After filling in the details for a code block, it should look something like:</summary>
+
+```sh title="bash (linux/mac)"
+cd ~/.mozilla/firefox/123.default-release
+git clone https://github.com/soulhotel/FF-ULTIMA.git chrome
+cd chrome && cp "user.js" "../user.js"
+pkill -9 -f firefox && while pgrep -f firefox >/dev/null; do sleep 0.5; done
+firefox &                    # restart firefox
+sleep 2 && cd ../ && rm user.js # clean up user.js
+```
+or
+```powershell title="powershell (windows)"
+Set-Location "$env:APPDATA\Mozilla\Firefox\Profiles\123.default-release"
+git clone https://github.com/soulhotel/FF-ULTIMA.git chrome
+Set-Location "chrome"; Copy-Item "user.js" "..\user.js"
+Get-Process -Name firefox, firefox-developer-edition, firefox-nightly, librewolf -ErrorAction SilentlyContinue | ForEach-Object { $_.Kill() }
+while (Get-Process -Name firefox, firefox-developer-edition, firefox-nightly, librewolf -ErrorAction SilentlyContinue) { Start-Sleep -Milliseconds 500 }
+
+Start-Process "firefox.exe"                    # restart firefox
+
+Start-Sleep -Seconds 5; Set-Location ".."; Remove-Item "user.js" -ErrorAction SilentlyContinue
+```
+</details>
+
 
 ```sh title="bash (linux/mac)"
 # download theme
@@ -60,9 +86,10 @@ Start-Process "librewolf.exe"                  # restart librewolf
 Start-Sleep -Seconds 5; Set-Location ".."; Remove-Item "user.js" -ErrorAction SilentlyContinue
 ```
 
+
 ## With git userChrome (one line install)
 
-This automated tool requires no download. It runs by fetching [gituserChrome](https://github.com/soulhotel/git-userChrome) and running the script globally. Be sure to look at the [code](https://github.com/soulhotel/git-userChrome/tree/main/scripts) yourself before running the command and check out the video demonstration as well (below).
+This automated tool requires no download. It runs by fetching [gituserChrome](https://github.com/soulhotel/git-userChrome) and running the script globally. This was created by me, but you should still look at the [code](https://github.com/soulhotel/git-userChrome/tree/main/scripts) yourself before running the command and check out the video demonstration as well (below).
 
 > P.S. git userChrome is even more advanced when used as a GUI.
 

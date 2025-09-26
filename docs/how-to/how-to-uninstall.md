@@ -28,5 +28,5 @@ If you disable userchrome, firefox will stop interacting with the chrome folder 
 ### Deleting FF Ultima Settings
 Unfortunately, there's no way to mass-delete the about:config preferences.. but..
 
-With the theme disabled or theme files deleted, the settings will do absolutely nothing anyway. For the sake of *cleanliness or mental clarity or just ocd*.. You can still delete about:config preferences by simply "trashing" them on the about config page.
+With the theme disabled or theme files deleted, the settings will do absolutely nothing anyway. For the sake of *cleanliness or mental clarity or just ocd*.. You can still delete about:config preferences with the <kbd>🗑</kbd> button, on the about config page.
 <img src="https://github.com/user-attachments/assets/e0a56432-4e94-4741-99b1-f47d373bf09f" height="400px"/>
