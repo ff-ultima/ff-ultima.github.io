@@ -1,15 +1,13 @@
 ---
-sidebar_position: 7
-description: Autoconfig Configuration
+sidebar_position: 1
+description: userChromeJS / Autoconfig Configuration
 ---
 
-# Auto Config
+# Setup
 
-## Setup (3 steps)
+FF Ultima doesn't depend on autoconfig, but it can be set up and used in the same way as default firefox with the help of the [.autoconfig/](https://github.com/soulhotel/FF-ULTIMA/tree/main/.autoconfig) folder. The `.autoconfig/` folder sources it's setup files from https://github.com/AlexVallat/firefox-scripts?tab=readme-ov-file, and these files include 1 minor adjustment that allows users to organize their custom scripts in `chrome/scripts/`. Here's how to set it up:
 
-FF Ultima doesn't depend on autoconfig, but it can be set up and used in the same way as default firefox with the help of the [.autoconfig/](https://github.com/soulhotel/FF-ULTIMA/tree/main/.autoconfig) folder. The `.autoconfig/` folder sources userChromeJS/autoconfig setup files from https://github.com/AlexVallat/firefox-scripts?tab=readme-ov-file, and these files include 1 minor adjustment that allows users to organize their custom scripts in `chrome/scripts/`. Here's how to set it up:
-
-In the themes `.autoconfig` folder,
+### In the `.autoconfig/` folder
 
 1. Move everything in `.autoconfig/chrome/` into the original `chrome` folder.
 2. Move everything in `.autoconfig/firefox/` into your firefox installation folder.
@@ -23,6 +21,7 @@ Once Firefox restarts, you'll notice some new buttons and features appear in Fir
 | Linux   | /usr/lib/firefox/                                              |
 | Mac     | Firefox.app/Contents/Resources/                                |
 
+<br></br>
 
 <details>
 <summary>Still can't find the Firefox Installation Path?</summary>
@@ -30,7 +29,7 @@ Once Firefox restarts, you'll notice some new buttons and features appear in Fir
 >
 Summary: You can find the Installation Path right in the `about:support` page.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_4fdUdp3G4o?si=u7H0hDi7wvouVolc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/_4fdUdp3G4o?si=u7H0hDi7wvouVolc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Video by [xiaoxiaoflood](https://github.com/xiaoxiaoflood/firefox-scripts)
 </details>
@@ -38,26 +37,7 @@ Video by [xiaoxiaoflood](https://github.com/xiaoxiaoflood/firefox-scripts)
 
 ## Video Demonstration
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Example of some Auto Config integrations in FF Ultima
-
-<iframe width="70%" height="325" src="https://github.com/user-attachments/assets/8c2c5f27-e81a-4b27-b606-f80cdcb697b7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="570" src="https://github.com/user-attachments/assets/8c2c5f27-e81a-4b27-b606-f80cdcb697b7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <!--
