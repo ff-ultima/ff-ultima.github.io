@@ -15,7 +15,7 @@ FF Ultima doesn't depend on autoconfig, but it can be set up and used in the sam
 
 Once Firefox restarts, you'll notice some new buttons and features appear in Firefox. These are all features sourced from the `chrome/scripts` folder. And a `🧩 User Scripts` Button in the Navigation bar, you can use that button to manage scripts, turn them on/off, edit them, reload them. Even restart Firefox.
 
-|         | Common Firefox Installation Path                               |
+|         | Common Firefox Installation Paths                               |
 |---------|----------------------------------------------------------------|
 | Windows | C:\Program Files\Mozilla Firefox\                              |
 | Linux   | /usr/lib/firefox/                                              |
@@ -24,7 +24,7 @@ Once Firefox restarts, you'll notice some new buttons and features appear in Fir
 <br></br>
 
 <details>
-<summary>Still can't find the Firefox Installation Path?</summary>
+<summary>Need help finding your Firefox Installation Path?</summary>
 
 >
 Summary: You can find the Installation Path right in the `about:support` page.
@@ -36,6 +36,8 @@ Video by [xiaoxiaoflood](https://github.com/xiaoxiaoflood/firefox-scripts)
 
 
 ## Video Demonstration
+
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/F1yALhlsQHI?si=gcOp1m_Lw1WZqjLx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="100%" height="570" src="https://github.com/user-attachments/assets/8c2c5f27-e81a-4b27-b606-f80cdcb697b7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
