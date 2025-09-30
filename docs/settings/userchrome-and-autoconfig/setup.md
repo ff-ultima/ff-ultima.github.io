@@ -37,7 +37,7 @@ Video by [xiaoxiaoflood](https://github.com/xiaoxiaoflood/firefox-scripts)
 
 ## Video Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F1yALhlsQHI?si=EvaB6tyj0qJT0TMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/F1yALhlsQHI?si=EvaB6tyj0qJT0TMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="100%" height="570" src="https://github.com/user-attachments/assets/8c2c5f27-e81a-4b27-b606-f80cdcb697b7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
