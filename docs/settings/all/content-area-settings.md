@@ -7,11 +7,29 @@ description: Content area spacing, compact spacing, new tab page, context menu, 
 
 > Theme settings are accessible via the `about:config` page. Type `ultima` or `user.theme` to get started.
 
-- Looking for [color scheme settings? ->](https://github.com/soulhotel/FF-ULTIMA/wiki/Color-Schemes)
-- Looking for [transparent theming? ->](https://github.com/soulhotel/FF-ULTIMA/wiki/Transparent-Theming)
-- Looking for [adaptive tab color? ->](https://github.com/soulhotel/FF-ULTIMA/wiki/Adaptive-Tab-Color-Configuration)
+## ultima.findbar.position.top
 
-### ultima.scrollbar.thin
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+This setting moves the Find Bar - above browser content, and it makes a lot of sense being there. It also adds contrast to match results using the themes current accent color.
+
+<img width="85%" alt="image" src="/img/settings/findbarontop.gif" />
+
+## ultima.urlbar.focus.blur
+
+Blurs browser content when the urlbar is in focus
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusblur.gif" />
+
+## ultima.urlbar.focus.blur.all
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+Blurs everything except for the urlbar, when the urlbar is in focus
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusblurall.gif" />
+
+## ultima.scrollbar.thin
 
 > By [mrodyhin](https://github.com/mrodyhin), [#368](https://github.com/soulhotel/FF-ULTIMA/pull/368)
 

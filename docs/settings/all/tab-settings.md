@@ -145,3 +145,8 @@ You can choose one style for container tabs with: `ultima.xstyle.containertabs.i
 
 ![Vid_20250529_180401](https://github.com/user-attachments/assets/f78123cf-a299-40b7-b3bb-803a3c75b4a8)
 
+### ultima.tabs.horizontal.fullwidth
+
+Horizontal tabs take up as much width as possible
+
+<iframe width="80%" height="455" src="https://github.com/user-attachments/assets/f088369a-d4d0-48dd-ac16-129398969d47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

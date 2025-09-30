@@ -24,6 +24,36 @@ a useless setting that still exist
 
 <img width="85%" src="../../../img/settings/urlbaranimateoptions.gif" />
 
+### ultima.urlbar.focus.blur
+
+Blurs browser content when the urlbar is in focus
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusblur.gif" />
+
+### ultima.urlbar.focus.blur.all
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+Blurs everything except for the urlbar, when the urlbar is in focus
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusblurall.gif" />
+
+### ultima.urlbar.focus.autogrow
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+The URL Bar grows in size when focused
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusautogrow.gif" />
+
+### ultima.urlbar.focus.text.aligns.left
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+The text in the URL Bar remains centered, until the URL Bar is focused. When focused it aligns left.
+
+preview
+
 ### ultima.urlbar.centered
 
 This centers the text within the urlbar. To center the urlbar itself, just use `spacers` on the customize toolbar page
@@ -51,6 +81,12 @@ Like urlbar.hide.buttons, this hides the action buttons within the url bar, unti
 ### ultima.urlbar.hide.searchsuggestions
 
 This hides the "This time search with" url bar suggestions, when used with the new "bonnet" switcher, it hides that.
+
+### ultima.urlbar.scrollable
+
+The expanded urlbar becomes scrollable, meaning results can be scrolled through
+
+preview
 
 ### ultima.urlbar.transparent
 

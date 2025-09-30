@@ -89,3 +89,9 @@ To hide the all tabs button
 To theme the extension panel
 
 ![themeextensions](https://github.com/soulhotel/FF-ULTIMA/assets/155501797/b81bce27-5927-4a0d-9bd5-e970477458d9)
+
+### ultima.navbar.text.for.icons
+
+Replaces the navbar toolbar icons with their text label
+
+<img width="98%" alt="fluent" src="/img/settings/navbartextforicons.png" />
