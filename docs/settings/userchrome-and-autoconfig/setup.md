@@ -47,7 +47,7 @@ Video by [he23251](https://github.com/he23251)
 
 Also if you are familiar with xiaoxia's [firefox-scripts](https://github.com/xiaoxiaoflood/firefox-scripts), I've adapted the userChrome Manager into a page, with potential to expand on it further.
 
-<img width="150" src="/img/settings/ucjsmanager.gif"/>
+<img width="100%" src="/img/settings/ucjsmanager.gif"/>
 
 
 <!--
