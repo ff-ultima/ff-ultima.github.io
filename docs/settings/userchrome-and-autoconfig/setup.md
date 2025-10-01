@@ -7,7 +7,7 @@ description: userChromeJS / Autoconfig Configuration
 
 FF Ultima doesn't depend on autoconfig, but it can be set up and used in the same way as default firefox with the help of the [.autoconfig/](https://github.com/soulhotel/FF-ULTIMA/tree/main/.autoconfig) folder. The `.autoconfig/` folder sources it's setup files from https://github.com/AlexVallat/firefox-scripts?tab=readme-ov-file, and these files include 1 minor adjustment that allows users to organize their custom scripts in `chrome/scripts/`. Here's how to set it up:
 
-### In the `.autoconfig/` folder
+### Setup handled in the `.autoconfig/` folder
 
 1. Move everything in `.autoconfig/chrome/` into the original `chrome` folder.
 2. Move everything in `.autoconfig/firefox/` into your firefox installation folder.
@@ -42,6 +42,13 @@ Video by [xiaoxiaoflood](https://github.com/xiaoxiaoflood/firefox-scripts)
 <iframe width="100%" height="570" src="https://github.com/user-attachments/assets/8c2c5f27-e81a-4b27-b606-f80cdcb697b7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Video by [he23251](https://github.com/he23251)
+
+## More
+
+Also if you are familiar with xiaoxia's [firefox-scripts](https://github.com/xiaoxiaoflood/firefox-scripts), I've adapted the userChrome Manager into a page, with potential to expand on it further.
+
+<img width="150" src="/img/settings/ucjsmanager.gif"/>
+
 
 <!--
 :::note
