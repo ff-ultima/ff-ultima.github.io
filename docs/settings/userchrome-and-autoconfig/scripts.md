@@ -15,7 +15,7 @@ For all CSS related to a specific script. I recommend isolating the code to prot
 
 When writing your own personal code for the theme, I recommend also wrapping it inside this preference so that it doesn't conflict with a non-scripting environment.
 
-```
+```css
 @media -moz-pref("ultima.enable.js.config") {
     "css related to your scripts"
 }
