@@ -56,8 +56,6 @@ Video by [he23251](https://github.com/he23251)
 
 ## userChromejs Manager
 
-If you are familiar with xiaoxia's [firefox-scripts](https://github.com/xiaoxiaoflood/firefox-scripts), I've adapted the userChrome Manager into a page, with potential to expand on it further. This is how it looks right now:
-
 This is an adaption of xiaoxia's userChromejs Manager, the original is a dropdown menu that is minimal but also limiting in my opinion (as a mouse-centered user). The adaptation was to simply turn it into a page, with buttons for every action instead of needing keyboard actions and potential to expand on what can be managed within the page. All credit goes to the original creator (most of the logic is untouched).
 
 > ManagerPage.uc.js, userChromeManager.html
