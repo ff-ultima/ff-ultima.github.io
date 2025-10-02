@@ -95,3 +95,9 @@ To theme the extension panel
 Replaces the navbar toolbar icons with their text label
 
 <img width="98%" alt="fluent" src="/img/settings/navbartextforicons.png" />
+
+### ultima.navbar.bookmarks.tab.indicator
+
+This adds an "outline" indicator to the currently selected tab (if it is bookmarked)
+
+<img width="98%" alt="fluent" src="/img/settings/bookmarkedtabindicator.gif" />
