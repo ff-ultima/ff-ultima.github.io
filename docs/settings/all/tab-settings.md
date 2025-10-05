@@ -150,3 +150,9 @@ You can choose one style for container tabs with: `ultima.xstyle.containertabs.i
 Horizontal tabs take up as much width as possible
 
 <iframe width="100%" height="490" src="https://github.com/user-attachments/assets/f088369a-d4d0-48dd-ac16-129398969d47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### ultima.tabs.focus.blur
+
+Focus/Hovering over a tab will blur all other tabs
+
+<img width="100%" src="/img/settings/tabfocusblur.gif" />

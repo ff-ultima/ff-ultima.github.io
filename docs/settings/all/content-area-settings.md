@@ -73,6 +73,12 @@ Makes the browser content spacing a bit more "comfy", works well with Ultra-Wide
 
 ![context menu spacing](https://github.com/user-attachments/assets/87528b41-76a3-45e1-b492-915662df00d1)
 
+### ultima.navbar.bookmarks.tab.indicator
+
+This setting highlights the currently selected browser content, if the currently selected tab is bookmarked
+
+<img width="100%" src="/img/settings/bookmarkedtabindicator.gif" />
+
 ### ultima.xstyle.newtab.rounded
 
 This makes the elements of the new tab page more rounded, with shortcuts becoming circular.
