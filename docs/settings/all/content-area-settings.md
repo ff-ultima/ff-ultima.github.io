@@ -7,14 +7,6 @@ description: Content area spacing, compact spacing, new tab page, context menu, 
 
 > Theme settings are accessible via the `about:config` page. Type `ultima` or `user.theme` to get started.
 
-## ultima.findbar.position.top
-
-> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
-
-This setting moves the Find Bar - above browser content, and it makes a lot of sense being there. It also adds contrast to match results using the themes current accent color.
-
-<img width="85%" alt="image" src="/img/settings/findbarontop.gif" />
-
 ## ultima.urlbar.focus.blur
 
 Blurs browser content when the urlbar is in focus
@@ -28,6 +20,22 @@ Blurs browser content when the urlbar is in focus
 Blurs everything except for the urlbar, when the urlbar is in focus
 
 <img width="85%" alt="image" src="/img/settings/urlbarfocusblurall.gif" />
+
+## ultima.findbar.position.top
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+This setting moves the Find Bar - above browser content, and it makes a lot of sense being there. It also adds contrast to match results using the themes current accent color.
+
+<img width="85%" alt="image" src="/img/settings/findbarontop.gif" />
+
+## ultima.findbar.disable.background.image
+
+This setting hides the background image that some add-on themes attached to the findbar, often these images don't blend with the themes rounded appearance. The disabled background also fixes add on themes that produce a different solid color than the overall browser color. Try it out if you ever use an add-on theme that has this issue.
+
+<img width="85%" alt="image" src="/img/settings/findbarnobackground.gif" />
+
+An alternative solution is to just use `spacing.compact` to remove the differences in border/color. 
 
 ## ultima.scrollbar.thin
 
