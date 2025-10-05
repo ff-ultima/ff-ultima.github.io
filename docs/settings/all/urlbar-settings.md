@@ -9,7 +9,7 @@ description: Url bar positioning, floating, background, animations, visibility, 
 
 ### ultima.urlbar.float
 
-The urlbar floats, by popping down and scaling up
+For a floating url bar, it floats by popping down and scaling up
 <iframe width="80%" height="329" src="https://github.com/user-attachments/assets/f0c7744a-f527-4025-b300-191922babacb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.urlbar.animate.open

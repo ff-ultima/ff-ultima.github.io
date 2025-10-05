@@ -14,15 +14,15 @@ Autohide the navigation bar. It remains visible when the url bar is focused, or 
 
 ### ultima.navbar.float
 
-Like navbar autohide, this autohides the navigation bar, in a floating style
+For a floating url bar, this also autohides the nav bar like above.
 
 <img width="98%" alt="fluent" src="https://github.com/user-attachments/assets/be397407-ecc0-43f5-bfbe-821777605f13" />
 
 ### ultima.navbar.float.fullsize
 
-Like navbar float, but the navbar takes up as much width as possible.
+For a floating url bar, like above, except the nav bar stays a full width.
 
-> This setting isn't really ideal for a vertical tab setup, as you can see with how the elements overlap in the image below. Smooth sailing for horizontal tabs though.
+This setting is not ideal for a vertical tab setup, as you can see with how the elements overlap in the image below. Smooth sailing for horizontal tabs though.
 
 <img width="98%" alt="fluent" src="/img/settings/navbarfloatfullsize.png" />
 
@@ -45,7 +45,7 @@ There are a total of 4 custom window control styles
 
 ### ultima.disable.windowcontrols.button
 
-To completely hide the window controls
+To completely hide the window controls (titlebar buttons)
 
 ![disablewincontrols](https://github.com/user-attachments/assets/d796809a-eaf7-4872-9ff1-9e1a0d734108)
 
