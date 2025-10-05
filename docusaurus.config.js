@@ -132,6 +132,17 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      // https://docusaurus.io/docs/search#using-algolia-docsearch
+      algolia: {
+        appId: '0OM5PA911H',
+        apiKey: '8d30d97462633bddfe02c133689df78f',
+        indexName: 'algolia-doc-crawler',
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+        insights: false,
+        // askAi: 'YOUR_ALGOLIA_ASK_AI_ASSISTANT_ID',
+      },
     }),
 };
 
