@@ -26,7 +26,7 @@ This setting is not ideal for a vertical tab setup, as you can see with how the 
 
 <img width="98%" alt="fluent" src="/img/settings/navbarfloatfullsize.png" />
 
-### ultima.navbar.hidebuttons
+### ultima.navbar.hide.buttons
 
 Hide the buttons on the navigation bar when not hovered. When panels like the menu, extensions, or downloads are triggered/focused/downloading those specific buttons will remain visible until not focused d82e1cc
 
@@ -78,11 +78,17 @@ This setting controls the positioning of the bookmark toolbar items, from `left`
 ![Image](https://github.com/user-attachments/assets/8caa9c6d-af6c-4b11-bfdf-a732dda55642)
 ![Image](https://github.com/user-attachments/assets/a498711b-ac46-4fc4-a768-020674241f12)
 
-### ultima.disable.alltabs.button
+### ultima.navbar.bookmarks.focus.blur
 
-To hide the all tabs button
+Blurs browser content when focused on bookmark folders
 
-![disablealltabs](https://github.com/user-attachments/assets/655cb288-16e1-4474-945a-8c182f668560)
+<img width="98%" alt="preview" src="/img/settings/bookmarkfocusblur.gif" />
+
+### ultima.navbar.bookmarks.tab.indicator
+
+This adds an "outline" indicator to the currently selected tab (if it is bookmarked)
+
+<img width="98%" alt="preview" src="/img/settings/bookmarkedtabindicator.gif" />
 
 ### ultima.navbar.theme.extensionspanel
 
@@ -90,14 +96,15 @@ To theme the extension panel
 
 ![themeextensions](https://github.com/soulhotel/FF-ULTIMA/assets/155501797/b81bce27-5927-4a0d-9bd5-e970477458d9)
 
+### ultima.spacing.compact.menupanel
+
+For a more compact menu panel / extension panel
+
+<img height="400px" alt="Image" src="https://github.com/user-attachments/assets/0a2466b9-9588-470a-8f0c-4ddb05ccbf44" />
+<img height="400px" alt="Image" src="https://github.com/user-attachments/assets/6de48734-db2b-4bc6-a6af-33bd3cf1ed0e" />
+
 ### ultima.navbar.text.for.icons
 
 Replaces the navbar toolbar icons with their text label
 
-<img width="98%" alt="fluent" src="/img/settings/navbartextforicons.png" />
-
-### ultima.navbar.bookmarks.tab.indicator
-
-This adds an "outline" indicator to the currently selected tab (if it is bookmarked)
-
-<img width="98%" alt="fluent" src="/img/settings/bookmarkedtabindicator.gif" />
+<img width="98%" alt="preview" src="/img/settings/navbartextforicons.png" />

@@ -32,11 +32,11 @@ Hovering over a tabs icon will present the "close tab" button
 
 ![Vid_20250728_233140](https://github.com/user-attachments/assets/3d529446-1460-40b3-9ba3-29ffa080a6ea)
 
-### ultima.disable.alltabs.button
+### ultima.tabs.tabCounter
 
-This hides the `all tabs` button that is always on the Navigation Bar
+Display a counter/indicator for the total amount of tabs open in the container
 
-![disablealltabs](https://github.com/user-attachments/assets/655cb288-16e1-4474-945a-8c182f668560)
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/gkvQmEWVFkk?si=AYRt4ztV8Hwuls9L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.tabs.disable.scrollbar
 

@@ -1,6 +1,7 @@
 {
   "label": "Settings",
   "position": 1,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "FF Ultima applies all of its features by filtering through user preferences (example: ultima.navbar.autohide) 
