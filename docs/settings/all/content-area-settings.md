@@ -35,9 +35,9 @@ Makes the browser content spacing a bit more "comfy", works well with Ultra-Wide
 
 Reverses the position of the content toolbox when docked bottom
 
-<img width="85%" alt="image" src="contenttoolboxontop.png" />
+<img width="85%" alt="image" src="/img/settings/contenttoolboxontop.png" />
 
-
+---
 
 # Find Bar
 
@@ -57,7 +57,7 @@ This setting hides the background image that some add-on themes attached to the 
 
 An alternative solution is to just use `spacing.compact` to remove the differences in border/color. 
 
-
+---
 
 ## Context Menu
 
@@ -75,7 +75,7 @@ preview
 
 ![context menu spacing](https://github.com/user-attachments/assets/87528b41-76a3-45e1-b492-915662df00d1)
 
-### 
+---
 
 ## Content Related
 
