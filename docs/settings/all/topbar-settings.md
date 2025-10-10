@@ -82,7 +82,7 @@ This setting controls the positioning of the bookmark toolbar items, from `left`
 
 Blurs browser content when focused on bookmark folders
 
-<img width="98%" alt="preview" src="/img/settings/bookmarkfocusblur.gif" />
+<img width="98%" alt="preview" src="/img/settings/bookmarksfocusblur.gif" />
 
 ### ultima.navbar.bookmarks.tab.indicator
 
