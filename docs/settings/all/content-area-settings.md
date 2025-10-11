@@ -23,7 +23,7 @@ Makes the addon manager & themes page a compact grid layout
 
 Removes all borders and rounding for the content area, also shrinks tabs by a tiny percentage
 
-<iframe width="85%" height="500" src="https://github.com/user-attachments/assets/22489b0c-3b99-48ed-897b-e2926e6672bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/22489b0c-3b99-48ed-897b-e2926e6672bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.spacing.relaxed
 
@@ -35,7 +35,7 @@ Makes the browser content spacing a bit more "comfy", works well with Ultra-Wide
 
 Reverses the position of the content toolbox when docked bottom
 
-<img width="85%" alt="image" src="/img/settings/contenttoolboxontop.png" />
+<img width="100%" alt="image" src="/img/settings/contenttoolboxontop.png" />
 
 ---
 
@@ -47,13 +47,13 @@ Reverses the position of the content toolbox when docked bottom
 
 This setting moves the Find Bar - above browser content, and it makes a lot of sense being there. It also adds contrast to match results using the themes current accent color.
 
-<img width="85%" alt="image" src="/img/settings/findbarontop.gif" />
+<img width="100%" alt="image" src="/img/settings/findbarontop.gif" />
 
 ### ultima.findbar.disable.background.image
 
 This setting hides the background image that some add-on themes attached to the findbar, often these images don't blend with the themes rounded appearance. The disabled background also fixes add on themes that produce a different solid color than the overall browser color. Try it out if you ever use an add-on theme that has this issue.
 
-<img width="85%" alt="image" src="/img/settings/findbarnobackground.gif" />
+<img width="100%" alt="image" src="/img/settings/findbarnobackground.gif" />
 
 An alternative solution is to just use `spacing.compact` to remove the differences in border/color. 
 
@@ -83,7 +83,7 @@ preview
 
 Blurs browser content when the urlbar is in focus
 
-<img width="85%" alt="image" src="/img/settings/urlbarfocusblur.gif" />
+<img width="100%" alt="image" src="/img/settings/urlbarfocusblur.gif" />
 
 ### ultima.urlbar.focus.blur.all
 
@@ -91,7 +91,7 @@ Blurs browser content when the urlbar is in focus
 
 Blurs everything except for the urlbar, when the urlbar is in focus
 
-<img width="85%" alt="image" src="/img/settings/urlbarfocusblurall.gif" />
+<img width="100%" alt="image" src="/img/settings/urlbarfocusblurall.gif" />
 
 ### ultima.scrollbar.thin
 
@@ -99,7 +99,7 @@ Blurs everything except for the urlbar, when the urlbar is in focus
 
 Forces a more *thin* scroll bar for the content area, very useful for Windows 10 Users
 
-<img width="85%" alt="image" src="https://github.com/user-attachments/assets/08a516f8-6b92-43ae-9045-7e1e43979259" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/08a516f8-6b92-43ae-9045-7e1e43979259" />
 
 ### ultima.navbar.bookmarks.tab.indicator
 
