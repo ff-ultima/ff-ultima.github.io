@@ -7,25 +7,22 @@ description: Using Adaptive Tab Color (extension)
 
 > By: [soulhotel](https://github.com/soulhotel), [flick36](https://github.com/flick36)
 
-:::note 
-> ATB doesn't offer much of a color palette besides the websites background-color as an accent, and some iterations of blacks and whites, which end up looking extremely bland. This is about the best it will get.
-:::
-
-## Best Compatibility
-
-This extension configuration seems to offer the best compatibility (You can changing it later)
-
-<img src="https://github.com/user-attachments/assets/b8f8ec41-3dd7-4654-9d0c-a054ff0a9a41" width="35%" /> <img src="https://github.com/user-attachments/assets/e75d6312-d3b7-44fe-9a0d-1d0ce964a982" width="59%" />
+*ATB doesn't offer much of a color palette besides the current websites background-color as an accent, and some iterations of blacks and whites, which end up looking bland. This is about the best it will get.*
 
 
-<iframe width="100%" height="490" src="https://github.com/user-attachments/assets/789a31ea-d17a-4292-994e-97147f2c2a59" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/NjUwC8WVj3Y?si=MAqviEcpBuxXMCNv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- https://github.com/user-attachments/assets/789a31ea-d17a-4292-994e-97147f2c2a59 -->
+## For best compatibility
+
+This extension configuration seems to offer the best compatibility.
+
+<img src="https://github.com/user-attachments/assets/b8f8ec41-3dd7-4654-9d0c-a054ff0a9a41" width="35%" />
+
 
 
 ## Some extra configurations, you may find useful.
 
-By @flick36
+> By @flick36
 
 > While tinkering i found out, in the Adaptive Tab Color extension, that you can actually disallow a light tab bar, which i think it's a nice setting to have to kind of "fix" the  problem of having different shades of dark or light themes, i believe most of us prefer a Dark Theme, so unticking that setting works flawesly, also, notice the "minimium contrast" bit ont the same extension, the default is 4.5 for dark, ik set it up to the max which is 21, and onw i get a full black when using a website that has a light theme
 

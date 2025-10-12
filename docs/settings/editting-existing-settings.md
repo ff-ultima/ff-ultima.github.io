@@ -5,12 +5,13 @@ description: Tips for tweaking/modifying existing settings
 
 # Editting existing settings
 
-> This page is a list of *what can be* modifed and *how* within the source files. If you have an advanced understanding of CSS, then mostly anything can be modified when using your own judgement. And if you don't see something listed here, it just isn't documented yet.
+*This page is a list of *what can be* modifed and *how* within the source files. If you have an advanced understanding of CSS, then mostly anything can be modified when using your own judgement. And if you don't see something listed here, it just isn't documented yet*.*
 
 #### When looking in the chrome/theme folder you'll notice a very easy to read structure:
 
 <details>
 <summary>theme structure tree</summary>
+
 ```
 ├── theme
 │   ├── ffu-global-positioning.css
@@ -44,7 +45,15 @@ description: Tips for tweaking/modifying existing settings
 ```
 </details>
 
-Every setting/preference of the theme is organized within this structure accordingly. `ultima.navbar` settings will be found in `settings-navbar.css`. `ultima.tabs` settings will be found in settings-TABS.css. `ffu-xxx.css` files are the foundation of the theme and should rarely be messed with (unless you know what you're doing). Inside of all these files, you'll find an index (a list at the top that points you to every section of code in the file). You can use `ctrl+f` to search for a specific section and it will bring you right to the relevant code. For example, if you ctrl+f "`tab groups labels`" it will bring you to all code related to all tab group label settings.
+Every setting/preference of the theme is organized within this structure accordingly. `ultima.navbar` settings will be found in `settings-navbar.css`. `ultima.tabs` settings will be found in settings-TABS.css. `ffu-xxx.css` files are the foundation of the theme and should rarely be messed with (unless you know what you're doing). Inside of all these files, you'll find an index (a list at the top that points you to every section of code in the file). You can use `ctrl+f` to search for a specific section and it will bring you right to the relevant code.
+
+For example, if you <kbd>ctrl+f</kbd> "tab groups labels" in `chrome/theme/settings-tabs.css`, it'll' bring you to all code related to tab group label settings.
+
+
+## Color Schemes
+
+All color-schemes follow the same structure and serve as templates that can be copy -> pasted -> rebranded. The [create a color scheme wiki](/docs/color-schemes/create-a-color-scheme) should go over everything you need to know about editting color-schemes, or creating your own
+
 
 ## settings-navbar.css
 
@@ -95,12 +104,6 @@ Already noted in the source, but the first transition controls the animation for
 
 todo
 
-## settings-icons.css
-
-### making custom icon sets
-
-todo
-
 ## settings-navbar-windowcontrols.css
 
 ### making custom icon sets
@@ -109,9 +112,37 @@ todo
 
 ## settings-TABS.css
 
-## todo
+## tab counter
 
-todo
+#### editting the visual indicator
+
+the visual indicator for horizontal tabs and vertical tabs are completely isolated, so they can be styled differently.
+
+you can reduce the indicator to just a number by emptying all instances of the content string: `" Tabs Open"` -> `""`
+
+```css
+@media -moz-pref("ultima.tabs.tabCounter") {
+    /* get count */
+    ...
+    /* VERTICAL tabs visual indicator */
+    #tabbrowser-arrowscrollbox[orient="vertical"] {
+        #tabbrowser-arrowscrollbox-periphery::after {
+            content: counter(tabcount) "";
+            ...
+        }
+    }
+    /* adjustment for collapsed tabs */
+    ...
+    /* adjustment for tabs overflow */
+    ...
+    /* HORIZONTAL tabs visual indicator */
+    #tabbrowser-arrowscrollbox[orient="horizontal"]::after {
+        content: counter(tabcount) "";
+         ...
+    }
+}
+```
+
 
 ## settings-urlbar.css
 
@@ -121,7 +152,7 @@ todo
 
 todo
 
-```
+```css
 @media -moz-pref("ultima.urlbar.float") {
     #urlbar {
         /* baseline transition */
@@ -164,14 +195,11 @@ todo
 ...
 ```
 
-## Color Schemes
+## settings-icons.css
 
-The [create a color scheme wiki](/docs/color-schemes/create-a-color-scheme) will teach you everything you need to know about editting color-schemes, you can even make your own personal copy of an existing color scheme and use it like all of the others.
+### making custom icon sets
 
-## Icons
-
-### ...
-### ...
+todo
 
 ## Spacing
 

@@ -11,9 +11,9 @@ You <ins>never</ins> need to reinstall Firefox or reset your browser just to rem
 
 :::
 
-## There are two ways to uninstall the theme
+## Two ways to uninstall the theme
 
-If you disable userchrome, firefox will stop interacting with the chrome folder (theme files). If you delete the chrome folder (or everything inside of it), firefox will have nothing to be themed with since the theme no longer exist. Choose whichever method you prefer.
+If you disable userchrome, firefox will stop interacting with the chrome folder (theme files). Or if you delete the chrome folder (or everything inside of it), firefox will have nothing to be themed with (since the theme will no longer exist). Choose whichever method you prefer.
 
 ### 1. Disable FF Ultima
    - On the about:config page
@@ -25,8 +25,10 @@ If you disable userchrome, firefox will stop interacting with the chrome folder 
    - Delete the `chrome` folder containing the theme files
    - Restart Firefox
 
-### Deleting FF Ultima Settings
+### 3. Deleting FF Ultima Settings
+
 Unfortunately, there's no way to mass-delete the about:config preferences.. but..
 
-With the theme disabled or theme files deleted, the settings will do absolutely nothing anyway. For the sake of *cleanliness or mental clarity or just ocd*.. You can still delete about:config preferences with the <kbd>🗑</kbd> button, on the about config page.
+With the theme disabled or theme files deleted, the settings will do absolutely nothing even if you don't delete them. For the sake of *cleanliness or mental clarity or just ocd*.. You can still delete about:config preferences with the <kbd>🗑</kbd> button, on the about config page.
+
 <img src="https://github.com/user-attachments/assets/e0a56432-4e94-4741-99b1-f47d373bf09f" height="400px"/>

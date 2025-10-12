@@ -20,7 +20,7 @@ Here's [a full list](./category/settings) of settings found in the theme.
 
 Every release version of FF Ultima documents commits, fixes, new features, or qol improvements in a `change log` section for that release. This dates back to Version 1.6 and can be browsed [here](https://github.com/soulhotel/FF-ULTIMA/releases).
 
-Every version of the theme also tries to stay compatible with Stable (Default Release) Firefox. The release notes always inform you of Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 being compatible with Firefox 138 to 143.
+Every version of the theme also tries to stay compatible with Stable (Default Release) Firefox. The release notes always inform you of Firefox version compatibility. For example, FF Ultima versions 2.0 to 3.7 being compatible with Firefox ~~138 to 143.~~ 138 and up.
 
 FF Ultima also supports Firefox Nightly, mostly through an `ultima.enable.nightly.config` setting. The setting is basically a quick patch for upstream changes/fixes that haven't made their way to Default Firefox yet. It also allows Nightly Users (or Developer Edition Users, like me) to use the same version of the theme as everyone else.
 
@@ -77,10 +77,10 @@ Every color scheme has it's own dark and light version. And FF Ultima cycles bet
 
 ### Why user.js?
 
-Freedom of choice. While many CSS themes can go far and beyond, a lot of the time they leave the user stuck with one way, one look, take it or leave it. That isn't the case for this one.
+Freedom of choice. While many CSS themes can go far and beyond, a lot of the time they leave the user stuck with one way, one look, take it or leave it.
 
 Using the user.js approach, by query of preferences in the about:config page, makes it a lot easier for you and any other person to quickly switch between different layouts or toggle one style on/off. While the alternative would be you having to close Firefox, edit theme files manually, maybe swap one file for another, *every time* you want to change how something looks.
 
 User.js makes the Creation & Use of different layouts much easier to manage. Where `navbar.autohide` wont interfere with `bookmark.autohide`, and `sidebar.autohide` wont interfere with `tabs.vertical.hide`. And if you just don't want to see window controls right now... Turn `ultima.disable.windowcontrols.button` `on` and keep browsing. It's convenient.
 
-And for those who want to create Firefox themes, when browsing the source you'll notice alot of the functionalities are indexed and organized by "setting". So seperating them and even copying them is a lot easier. And a lot of the themes features can definitely be copied into your own theme without the moz preference query.
+And for those who want to create Firefox themes, when browsing the source you'll notice alot of the functionalities are indexed and organized by "setting". So seperating them and even copying them is a lot easier. Most of the themes features are modular and can definitely be copied into your own setup.
