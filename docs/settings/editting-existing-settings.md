@@ -47,7 +47,7 @@ description: Tips for tweaking/modifying existing settings
 
 Every setting/preference of the theme is organized within this structure accordingly. `ultima.navbar` settings will be found in `settings-navbar.css`. `ultima.tabs` settings will be found in settings-TABS.css. `ffu-xxx.css` files are the foundation of the theme and should rarely be messed with (unless you know what you're doing). Inside of all these files, you'll find an index (a list at the top that points you to every section of code in the file). You can use `ctrl+f` to search for a specific section and it will bring you right to the relevant code.
 
-For example, if you <kbd>ctrl+f</kbd> "tab groups labels" in `chrome/theme/settings-tabs.css`, it'll' bring you to all code related to tab group label settings.
+For example, if you <kbd>ctrl+f</kbd> "tab groups labels" in `chrome/theme/settings-tabs.css`, it'll bring you to all code related to tab group label settings.
 
 
 ## Color Schemes

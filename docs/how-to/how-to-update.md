@@ -16,14 +16,11 @@ You can be notified whenever a new release drops by checking the themes [Home Pa
 
 ## How to Update
 
-You can just follow the normal [Installation Instructions](./how-to-install.md) to update the theme. It's as simple as replacing your theme files with the updated version.
-
-But reading the [release page](https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest) is always recommended (maybe even mandatory).
+You can just follow the normal [Installation Instructions](./how-to-install.md) to update the theme. It's as simple as replacing your theme files with the updated version.. But reading the [release page](https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest) is always recommended (maybe even mandatory).
 
 ![image](https://github.com/user-attachments/assets/1972c8ee-895e-4a35-81f2-628bd4bb86b9)
 
 It's organized in a way that only tell you what you need to know:
-
 - What's new
 - Whats old
 - Whats been fixed
