@@ -30,6 +30,6 @@ It's organized in a way that only tell you what you need to know:
 - New settings
 - user.js required or not.
 
-As mentioned many times, the user.js is usually just a one time thing. But the release page will always let you know if it may be `required` (rarely happens) for the update. If the release page marks user.js as `recommended` it's most likely because there are `new • 🟢 •` settings. If that's the case, it's up to you whether you want to reapply the user.js or not. [Typing new settings into the about:config]((docs/how-to/how-to-update)) page might be faster than reapplying the user.js.
+As mentioned many times, the user.js is usually just a one time thing. But the release page will always let you know if it may be `required` (rarely happens) for the update. If the release page marks user.js as `recommended` it's most likely because there are `new • 🟢 •` settings. If that's the case, it's up to you whether you want to reapply the user.js or not. [Typing new settings into the about:config](docs/how-to/how-to-update) page might be faster than reapplying the user.js.
 
 > 🛈 If updating seems tedious to you, I highly recommend using [gituserChrome](https://ff-ultima.github.io/docs/how-to/how-to-automate-installation#with-git-userchrome-application) to automate updates. After using it one time, your configuration is saved and restored, so updating would only require 1 press of a button.
