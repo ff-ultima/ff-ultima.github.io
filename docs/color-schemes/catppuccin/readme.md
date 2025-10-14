@@ -17,5 +17,6 @@ To use this color scheme:
 
 Preview:
 ![preview](./preview.png)
+![preview](./preview2.png)
 
 Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/create-a-color-scheme) Wiki.
