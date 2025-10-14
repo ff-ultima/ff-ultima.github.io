@@ -16,7 +16,7 @@ To use this color scheme:
 - Turn on `user.theme.catppuccin`
 
 Preview:
-![preview](./preview.png)
-![preview](./preview2.png)
+![preview](./p1.png)
+![preview](./p2.png)
 
 Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/create-a-color-scheme) Wiki.
