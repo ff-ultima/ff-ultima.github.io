@@ -80,6 +80,12 @@ This setting controls the positioning of the bookmark toolbar items, from `left`
 
 ### ultima.navbar.bookmarks.focus.blur
 
+:::warning Hey!
+
+This setting is best used with hardware acceleration `on`. Browsers can degrade the performance of blur (cpu instead of gpu = lag)
+
+:::
+
 Blurs browser content when focused on bookmark folders
 
 <img width="98%" alt="preview" src="/img/settings/bookmarksfocusblur.gif" />

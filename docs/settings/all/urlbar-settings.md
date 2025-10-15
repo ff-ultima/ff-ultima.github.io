@@ -26,11 +26,23 @@ a useless setting that still exist
 
 ### ultima.urlbar.focus.blur
 
+:::warning Hey!
+
+This setting is best used with hardware acceleration `on`. Browsers can degrade the performance of blur (cpu instead of gpu = lag)
+
+:::
+
 Blurs browser content when the urlbar is in focus
 
 <img width="85%" alt="image" src="/img/settings/urlbarfocusblur.gif" />
 
 ### ultima.urlbar.focus.blur.all
+
+:::warning Hey!
+
+This setting is best used with hardware acceleration `on`. Browsers can degrade the performance of blur (cpu instead of gpu = lag)
+
+:::
 
 > By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
 
