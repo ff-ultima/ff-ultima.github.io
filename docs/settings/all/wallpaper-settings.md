@@ -5,8 +5,6 @@ description: Using custom wallpapers
 
 # Wallpaper Settings
 
-> Switching wallpapers via the new tab pages menu is still experimental
-
 By default, Firefox's New Tab Page uses a gray (dark mode) or white (light mode) background. FF Ultima overrides this default based on the currently selected Color Scheme. Every Color Scheme has it's own dark/light mode wallpaper as well.
 
 You can change your wallpaper just like you would in regular Firefox. But the theme also provide a way to use different Color Scheme wallpapers from within the New Tab Page menu.
@@ -43,4 +41,4 @@ into this:
 "walls/MyPicture.jpg"
 ```
 
-> And also putting the image into the folder !
+> And also putting the image into the `walls` folder !

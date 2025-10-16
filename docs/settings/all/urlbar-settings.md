@@ -10,7 +10,7 @@ description: Url bar positioning, floating, background, animations, visibility, 
 ### ultima.urlbar.float
 
 For a floating url bar, it floats by popping down and scaling up
-<iframe width="80%" height="329" src="https://github.com/user-attachments/assets/f0c7744a-f527-4025-b300-191922babacb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="85%" height="340" src="https://github.com/user-attachments/assets/f0c7744a-f527-4025-b300-191922babacb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.urlbar.animate.open
 
@@ -104,4 +104,5 @@ preview
 
 This forces a transparent background on the urlbar when not in use
 
-![prev](https://github.com/soulhotel/FF-ULTIMA/assets/155501797/6dcf6a31-c5cd-4b34-9885-9cb6022afb02)
+<img width="85%" src="https://github.com/soulhotel/FF-ULTIMA/assets/155501797/6dcf6a31-c5cd-4b34-9885-9cb6022afb02" />
+
