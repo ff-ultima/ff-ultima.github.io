@@ -156,3 +156,33 @@ Horizontal tabs take up as much width as possible
 Focus/Hovering over a tab will blur all other tabs
 
 <img width="100%" src="/img/settings/tabfocusblur.gif" />
+
+### ultima.tabs.splitview.content.outline
+
+By default when using split view, the focused tab is surrounded by a border outline, this setting lets you toggle it on or off
+
+<img width="100%" src="/img/settings/tabssplitviewoutline.gif" />
+
+### ultima.tabs.splitview.focus.opacity
+
+When using split view, the view that is not in focus fades out in opacity (becomes less visible)
+
+<iframe width="100%" height="490" src="/img/settings/splitvieww.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### ultima.tabs.splitview.focus.shrink
+
+When using split view, the second view (when not focused) shrinks down to 30% of the windows width (portrait size)
+
+<iframe width="100%" height="490" src="/img/settings/splitvieww.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### ultima.tabs.splitview.tab.seperator
+
+By default when using split view, the combined tabs in the tab container have a visible seperator line, this setting lets you toggle it on or off
+
+<img width="100%" src="/img/settings/tabssplitviewseperator.gif" />
+
+### ultima.tabs.splitview.tab.gradient
+
+This setting changes the combined tabs background color to a subtle gradient
+
+<img width="100%" src="/img/settings/tabssplitviewgradient.gif" />
