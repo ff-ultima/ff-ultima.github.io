@@ -1,0 +1,115 @@
+---
+sidebar_position: 4
+description: Url bar positioning, floating, background, animations, visibility, etc.
+---
+
+# URL bar Settings
+
+> Theme settings are accessible via the `about:config` page. Type `ultima` or `user.theme` to get started.
+
+
+
+### ultima.urlbar.float
+
+For a floating url bar, it floats by popping down and scaling up
+<iframe width="85%" height="340" src="https://github.com/user-attachments/assets/f0c7744a-f527-4025-b300-191922babacb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### ultima.urlbar.animate.open
+
+The urlbar slides out when focused, this can be combined with a floating urlbar (like above)
+
+<img width="85%" src="../../../img/settings/urlbaranimateopen.gif" />
+
+### ultima.urlbar.animate.options
+
+a useless setting that still exist
+
+<img width="85%" src="../../../img/settings/urlbaranimateoptions.gif" />
+
+### ultima.urlbar.focus.blur
+
+:::warning Hey!
+
+This setting is best used with hardware acceleration `on`. Browsers can degrade the performance of blur (cpu instead of gpu = lag)
+
+:::
+
+Blurs browser content when the urlbar is in focus
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusblur.gif" />
+
+### ultima.urlbar.focus.blur.all
+
+:::warning Hey!
+
+This setting is best used with hardware acceleration `on`. Browsers can degrade the performance of blur (cpu instead of gpu = lag)
+
+:::
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+Blurs everything except for the urlbar, when the urlbar is in focus
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusblurall.gif" />
+
+### ultima.urlbar.focus.autogrow
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+The URL Bar grows in size when focused
+
+<img width="85%" alt="image" src="/img/settings/urlbarfocusautogrow.gif" />
+
+### ultima.urlbar.focus.text.aligns.left
+
+> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
+
+The text in the URL Bar remains centered, until the URL Bar is focused. When focused it aligns left.
+
+preview
+
+### ultima.urlbar.centered
+
+This centers the text within the urlbar. To center the urlbar itself, just use `spacers` on the customize toolbar page
+
+<img width="85%" src="../../../img/settings/urlbarcentered.gif" />
+
+### ultima.urlbar.drags.window
+
+you can drag the browser from the url bar, it's a bit of a nuisance because clicking the urlbar does focus it
+
+<img width="85%" src="../../../img/settings/urlbardragswindow.gif" />
+
+### ultima.urlbar.hide.buttons
+
+This hides the buttons within the urlbar, off hover
+
+<img width="85%" src="../../../img/settings/urlbarhidebuttons.gif" />
+
+### ultima.urlbar.hide.buttons.in.edge
+
+Like urlbar.hide.buttons, this hides the action buttons within the url bar, until hovering the select area
+
+<img width="85%" src="../../../img/settings/urlbarhidebuttonsedge.gif" />
+
+### ultima.urlbar.hide.searchsuggestions
+
+This hides the "This time search with" url bar suggestions, when used with the new "bonnet" switcher, it hides that.
+
+### ultima.urlbar.scrollable
+
+The expanded urlbar becomes scrollable, meaning results can be scrolled through
+
+preview
+
+### ultima.urlbar.transparent
+
+This forces a transparent background on the urlbar when not in use
+
+<img width="85%" src="https://github.com/soulhotel/FF-ULTIMA/assets/155501797/6dcf6a31-c5cd-4b34-9885-9cb6022afb02" />
+
+### ultima.urlbar.hide.trackingprotection.icon
+
+> by [AuRiMaS666](https://github.com/AuRiMaS666)
+
+Completely hides teh tracking protection button/icon from the url bar.

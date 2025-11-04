@@ -1,0 +1,8 @@
+{
+  "label": "Configurations",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Alternative configurations for FF Ultima. From Sidebery Only Setups, to Extension support, to userChrome JS, and more.. Everything you see here is completely optional (not required for the theme)."
+  }
+}

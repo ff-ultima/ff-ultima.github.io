@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Installing the theme, with a video demo
 ---
  
  # How to Install

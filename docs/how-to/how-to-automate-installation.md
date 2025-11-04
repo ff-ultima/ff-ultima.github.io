@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Automating theme installation with git, scripts, or other tools
 ---
  
  # How to Automate Installation

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: How to update FF Ultima, and stay informed
 ---
 
 # How to Update
@@ -8,7 +9,7 @@ sidebar_position: 3
 
 ## Staying updated
 
-FF Ultima tries to stay always-compatible with Default Release Firefox. So if you notice anything wrong after a Firefox Update, you'll probably find a theme update already released for it too (theme is developed 2 versions ahead).
+FF Ultima tries to stay always-compatible with Default Release Firefox. So if you notice anything wrong after a Firefox Update, you'll probably find a theme update already released for it too (theme is developed 2 versions ahead of default Firefox).
 
 You can be notified whenever a new release drops by checking the themes [Home Page](https://github.com/soulhotel/FF-ULTIMA), or "watching" the repository.
 
@@ -16,7 +17,7 @@ You can be notified whenever a new release drops by checking the themes [Home Pa
 
 ## How to Update
 
-You can just follow the normal [Installation Instructions](./how-to-install.md) to update the theme. It's as simple as replacing your theme files with the updated version.. But reading the [release page](https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest) is always recommended (maybe even mandatory).
+You can just follow the normal [Installation Instructions](./how-to-install.md) to update the theme. It's as simple as replacing your theme files with the updated version.. But reading the [release page](https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest) is also recommended (maybe even mandatory).
 
 ![image](https://github.com/user-attachments/assets/1972c8ee-895e-4a35-81f2-628bd4bb86b9)
 
