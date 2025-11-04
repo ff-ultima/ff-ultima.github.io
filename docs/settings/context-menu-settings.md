@@ -12,12 +12,9 @@ description: Context Menu (Right Click Menu) Settings
 Setting `ultima.contextmenu.reduce.options` makes context menus smaller and easier to navigate by hiding some of the least used options. Options such as:
 - send image
 - set background
-- open link in
 - view source
-- select all tabs
-- bookmark selected tab
-- close tab (below, after, before, etc)
 - duplicate tab
+- etc
 
 <img width="100%" src="/img/settings/contextmenureduced.png" />
 
