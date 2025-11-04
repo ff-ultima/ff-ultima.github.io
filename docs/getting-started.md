@@ -12,7 +12,7 @@ You can find helpful documentation for almost everything related to FF Ultima he
 
 ### Theme Settings?
 
-Here's [a full list](./category/settings) of settings found in the theme.
+Here's [a full list](./category/theme-settings) of settings found in the theme.
 
 ---
 

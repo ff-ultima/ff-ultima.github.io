@@ -23,7 +23,7 @@ This setting will show/hide Sidebery when hovered (other sidebars will remain a 
 
 ### ultima.tabs.tabbar.disabled & ultima.tabs.tabbar.autohide
 
-> These settings can be combined with sidebery.autohide. Learn more by checking out Sidebery Configuration [here ->](../sidebery)
+> These settings can be combined with sidebery.autohide. Learn more by checking out Sidebery Configuration [here ->](/docs/configurations/sidebery)
 
 Both of these settings work for horizontal or vertical tabs, expandOnHover should be `OFF` when using vertical tabs
 

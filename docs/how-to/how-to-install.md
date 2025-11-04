@@ -73,9 +73,9 @@ Go to `about:config` and search for `ultima` to see all of your settings. You sh
 
 Browse the Wiki to learn more about what can be done:
 - [Frequently asked questions](/docs/getting-started#faq)
-- [All theme settings](/docs/category/settings) (previews & explanations)
+- [All theme settings](/docs/category/theme-settings) (previews & explanations)
 - [How to update, uninstall, update](/docs/category/how-to)
-- [Sidebery configuration](/docs/settings/sidebery) (optional)
+- [Sidebery configuration](/docs/configurations/sidebery) (optional)
 - Videos, documentation, and more..
 </details>
 
