@@ -22,8 +22,7 @@ Setting `ultima.contextmenu.reduce.options` makes context menus smaller and easi
 
 `ultima.spacing.compact.contextmenu` and `ultima.spacing.relaxed.contextmenu` can make the context menu spacing bigger or smaller. Mac OS Users *should* use the gtk context menu, because it matches FF Ultimas theme.
 
-![context menu spacing](https://github.com/user-attachments/assets/87528b41-76a3-45e1-b492-915662df00d1)
-
+<img width="100%" src="/img/settings/contextmenuspacing.png" />
 
 ### Hide context menu icons
 
