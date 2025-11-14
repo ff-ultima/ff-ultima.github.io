@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkff_ultima_wiki=globalThis.webpackChunkff_ultima_wiki||[]).push([[8913],{8913:(i,a,k)=>{k.r(a)}}]);
