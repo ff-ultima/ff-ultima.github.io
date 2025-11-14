@@ -31,9 +31,6 @@ This file connects all color-schemes to the browser, by importing them in a seri
 - & wallpapers
 </details>
 
-
-## How to Create a Color Scheme
-
 The entire process for creating a color-scheme is simple. You come up for a name and a theme. Add the color-scheme to the list of others. Then copy an existing color-scheme to use as a foundation for your new one. Below you'll find a detailed breakdown of the full process.
 
 
@@ -45,16 +42,17 @@ There are three list in `apply-cs.css`. Each list makes the color scheme availab
 
 - replace "YourName" with the name of your theme (there are 5 YourName's).
 - replace "YourWallpaper" with a wallpaper if you'd like (use existing wallpapers or add your own).
+- for these examples, I'll create a color-scheme named "soho".
 
 <iframe width="100%" height="490" src="https://www.youtube.com/embed/k_LDUiQFHy4?si=CggHPUiLrNU6vyPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Editting the Color Scheme (Part 1)
 
-In `chrome/theme/color-schemes`, <ins>**copy**</ins> one of the color schemes that you want to use as a foundation. I recommend `default` if you want more control. And `catppuccin` if you only want to setup colors. For this example, I'm going to assume you chose `default`. All files follow the same format.. so you'll be able to follow along with whiever foundation you choose.
+In `chrome/theme/color-schemes`, <ins>**copy**</ins> one of the color schemes that you want to use as a foundation. I recommend copying `default` if you want more control. Or `catppuccin` if you only want to setup colors. For this example, I'm going to assume you chose `default`.
 
 1. Make a copy of the `default/` folder, and change the copies name to the name of your theme (example: `soho/`).
 2. Inside of the newly made `soho/` folder, you'll find `ffu-colorscheme.css`, open it in a text editor.
-3. These lines in the file are all you need to create a color scheme:
+3. These lines in the file are really all you need to create a color scheme:
     - `Line 4 •` File Desc: `soho` color scheme.
     - `Line 17 to 43 •` all the colors for dark mode.
     - `Line 48 to 74 •` all the colors for light mode.
@@ -74,14 +72,11 @@ All that's left is to setup the colors. The best way to do that is live, inside 
 - Open the browser toolbox (live debugger) with `ctrl+shift+alt+I`
 - By default, it may be on the `Inspector` Tab. Go to the `Style Editor` tab.
 - In `Style Editor`, Use the search bar to find your `ffu-colorscheme.css` file.
-- The colorscheme all have the same name but "YourName" should be at the top of your file.
+- The color schemes all have the same name but "YourName" should be at the top of your file.
 
 <iframe width="100%" height="490" src="https://www.youtube.com/embed/sDDiWfplK-Y?si=sr3fsDLJAStaOo0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- All that's left to do is pick your colors and create your *look*.
-- Save your changes to the file by pressing `ctrl+s` or clicking <ins>save</ins> next to the file name.
-- You can also peek at the other `ffu-colorscheme` theme files for inspiration.
-- You can undo & redo mistakes with `ctrl+z` & `ctrl+y`.
+All that's left to do is pick your colors and create your *look*. You can save your changes to the file by pressing `ctrl+s` or clicking <ins>save</ins> next to the file name. You can also peek at the other `ffu-colorscheme` theme files for inspiration. You can undo & redo mistakes with `ctrl+z` & `ctrl+y`.
 
 ![11 fix it and ship it ](https://github.com/user-attachments/assets/f15cbb57-1505-4141-b903-e7b7002583c0)
 
