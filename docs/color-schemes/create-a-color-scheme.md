@@ -93,8 +93,8 @@ All that's left to do is pick your colors and create your *look*. You can save y
 
 Now that you have your Shiny New Theme, you can switch between your theme & others, anytime, in about:config.
 
-Note: If you would like your theme to be included in future updates of FF ULTIMA you can share it through the Github. You would then be considered a Contributor to 'FF ULTIMA' by providing an alternate Style to many other Users of the theme. And Your Color Scheme will be easily enabled and kept updated with future versions of FF ULTIMA.
+Note: If you would like your theme to be included in future versions of FF ULTIMA you can share it through the Github. You would then be considered a Contributor for providing an alternate style that many Users of the theme may enjoy.
 
-To share your theme, you can submit a pull request (recommended) or open an issue, with the uploaded files. See also: [Color Scheme Presentation](https://github.com/soulhotel/FF-ULTIMA/tree/main/theme/color-schemes/catppuccin-mocha). Remember the folder you copied to create the color scheme, use that as a template to present the Color Scheme to other Users. Credit Yourself, and provide more details if you want to.
+To share your theme, you can submit it via pull request (recommended). See also: [Color Scheme Presentation](https://github.com/soulhotel/FF-ULTIMA/tree/main/theme/color-schemes/catppuccin-mocha). Remember the folder you copied to create the color scheme? Use that as a template to present the Color Scheme to other Users. Credit Yourself, and provide more details if you want to.
 
 With that said, I'll take care of the rest. Best regards, *Soulhotel*.

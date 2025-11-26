@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'FF Ultima Wiki',
-  tagline: 'Documentation for the Firefox theme with too many options',
+  tagline: 'The Firefox theme with too many options',
   favicon: 'img/favicon.ico',
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4

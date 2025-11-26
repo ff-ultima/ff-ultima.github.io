@@ -49,7 +49,7 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 
 ## Installation
 
-1. Download the latest version on the [release page](https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest).
+1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
 2. Copy everything in the ffultima.zip into your `chrome` folder.
 3. For first time installation, you need to apply the `user.js` to firefox to access the theme settings.
 4. In the chrome folder, youll see the `user.js`, move it <ins>out the chrome folder and into the Profile Folder</ins>.

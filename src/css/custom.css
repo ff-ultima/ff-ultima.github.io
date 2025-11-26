@@ -50,15 +50,17 @@
   border-radius: 10px;
 }
 [data-theme='dark'] .DocSearch {
+  --docsearch-key-background: #212124;
+  border: 1px  var(--docsearch-key-background) solid;
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
   --docsearch-container-background: rgba(1, 1, 1, 0.3);
 
   --docsearch-searchbox-background: var(--ifm-background-color);
 
-  --docsearch-searchbox-focus-background: rgb(32, 32, 39);
-  --docsearch-modal-background: rgb(32, 32, 39);
-  --docsearch-hit-background: rgb(32, 32, 39);
+  --docsearch-searchbox-focus-background: rgb(26, 26, 34);
+  --docsearch-modal-background: rgb(26, 26, 34);
+  --docsearch-hit-background: rgb(26, 26, 34);
 
   --docsearch-hit-color: var(--ifm-font-color-base);
   --docsearch-hit-active-color: var(--ifm-color-white);
@@ -86,7 +88,7 @@
   }
 }
 
-/* css structure todo */
+/* css structure "todo" if i ever care enough to do so. */
 
 @layer docusaurus.theme-classic {
   .toggle_vylO {
@@ -130,4 +132,7 @@ footer {
   
 }
 
-
+.hero__subtitle {
+  font-style: italic;
+  font-size: 1.1em;
+}

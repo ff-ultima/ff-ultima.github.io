@@ -32,41 +32,190 @@ p {
   justify-content: center;
 }
 
-/* css structure todo */
-
 .buttonRow {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 16px;
 }
 
 .DocButton, .latestReleaseButton, .IssueButton {
   display: inline-block;
-  padding: 1.2em 4em;
+  padding: 1rem 2rem;
   margin-top: 1em;
-  color: var(--ifm-color-content);
-  border-radius: 10px;
-  outline: 2px solid rgba(0,0,0,0.4);
-  outline-offset: -1px;
-  box-shadow: 0.2rem 0.3rem 0.2rem -0.1rem rgba(25,25,25,0.4);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  outline: none;
   text-decoration: none;
-  font-weight: bold;
-  transition: filter 0.3s ease, transform 0.6s ease;
-  &:hover {
-    filter: brightness(1.3);
-    transform: scale(1.1);
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  &:not(:hover) {
+    transition: all 1s;
   }
 }
 
 .DocButton {
-  background-color: #a271bb;
+  background: linear-gradient(135deg, #bc8dda 0%, #8e5fb0 100%);
+  &:hover {
+    background: linear-gradient(135deg, #b37fd6 0%, #a271bb 100%);
+  }
 }
 
 .latestReleaseButton {
-  background-color: #3b7fe6;
+  background: linear-gradient(135deg, #6aa5fd 0%, #3067dd 100%);
+  &:hover {
+  background: linear-gradient(135deg, #5c9ef8 0%, #3b7fe6 100%);
+  }
 }
 
 .IssueButton {
-  background-color: #cf6e2e;
+  background: linear-gradient(135deg, #e78c53 0%, #b96c3f 100%);
+  &:hover {
+  background: linear-gradient(135deg, #ec8f54 0%, #cf6e2e 100%);
+  }
+}
+
+.DocButton:hover, 
+.latestReleaseButton:hover, 
+.IssueButton:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 11px -5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+/* current release notes (expanded section) */
+
+.expandTrigger {
+  width: 100%;
+  height: 42px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    transform: translateY(-8px);
+  }
+}
+
+.expandTrigger.expanded .arrowIcon {
+  transform: rotate(180deg);
+  margin-top: 20px;
+}
+
+/* Release Notes Container */
+.releaseNotesContainer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s linear;
+  background: var(--ifm-background-surface-color);
+}
+
+.releaseNotesContainer.show {
+  max-height: fit-content;
+}
+
+.releaseNotesContent {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.releaseTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+.releaseDate {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.releaseBody {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: var(--ifm-color-content);
+  margin-bottom: 2rem;
+}
+
+.releaseBody strong {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.releaseBody em {
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.viewOnGithub {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(135deg, #4a8ef7 0%, #2563eb 100%);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #5c9ef8 0%, #3b7fe6 100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .releaseNotesContent {
+    padding: 2rem 1rem;
+  }
+  
+  .releaseTitle {
+    font-size: 1.5rem;
+  }
+  
+  .expandTrigger {
+    height: 50px;
+  }
 }
