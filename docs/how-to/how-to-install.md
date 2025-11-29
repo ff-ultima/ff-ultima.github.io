@@ -56,12 +56,6 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 5. Restart Firefox.
 6. <ins>**Wait** for Firefox to open</ins>, then delete the `user.js` file.
 
-:::warning
-
-After installing the theme, it's important that you <ins>do **not** keep the user.js file inside of your profile folder</ins>. Keeping it saved inside of the `chrome` folder is perfectly fine though.
-
-:::
-
 ## After Installation..
 
 <details>
