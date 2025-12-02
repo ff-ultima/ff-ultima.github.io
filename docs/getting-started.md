@@ -8,29 +8,23 @@ You can find helpful documentation for almost everything related to FF Ultima he
 
 ![gif](https://github.com/user-attachments/assets/dc1882e6-6543-41bd-aff7-ded2b96ffb97)
 
-## F.A.Q.
+#### F.A.Q.
 
 ### Theme Settings?
 
-Here's [a full list](./category/theme-settings) of settings found in the theme.
-
----
+Here's a full list of [theme settings ->](./category/theme-settings)
 
 ### Compatibility?
 
-Every version of FF Ultima documents commits, fixes, and new features in a `change log` for that release. This dates back to Version 1.6 and can be browsed [here (github)](https://github.com/soulhotel/FF-ULTIMA/releases) or [here](https://ff-ultima.github.io/docs/Version%20History).
+Every version of FF Ultima documents commits, fixes, and new features in a `change log` for that release. This dates back to Version 1.6 and can be browsed [here (github)](https://github.com/soulhotel/FF-ULTIMA/releases) or [here (compiled history)](https://ff-ultima.github.io/docs/Version%20History).
 
-The release notes also inform you about Firefox compatibility. Every version tries to stay compatible with the latest (Default Release) Firefox.
-
----
+The release notes also inform you on Firefox compatibility. Every new version stays compatible with the latest (Default Release) Firefox, every old version is compatible with a prior Firefox.
 
 ### My settings keep resetting 🙃!?
 
 After following the [installation instructions](/docs/how-to/how-to-install), you should **not** have a user.js file inside of your Profile Folder. The user.js file is a one-time thing, you only need it to install the theme for the first time, or rarely when [updating the theme](/docs/how-to/how-to-update).
 
-> ###### *The user.js file is responsible for adding theme settings into your Firefox Browser. When Firefox starts up, it reads the user.js file (inside of the Profile Folder) and takes all of the preferences inside of it. If you leave the user.js file in the Profile Folder, every time you restart Firefox these settings will be read over and over again, resetting whatever you've changed.*
-
----
+###### *The user.js file is responsible for adding theme settings into your Firefox Browser. When Firefox starts up, it reads the user.js file (inside of the Profile Folder) and takes all of the preferences inside of it. If you leave the user.js file in the Profile Folder, every time you restart Firefox these settings will be read over and over again, resetting whatever you've changed.*
 
 ### How do I switch the Dark/Light Modes?
 
@@ -39,8 +33,6 @@ Every color scheme has it's own dark and light version. And FF Ultima cycles bet
 - Mac > System Settings > Appearance
 - Linux (Gnome) > Settings > Appearance
 - Linux (KDE) > System Settings > Global Theme
-
----
 
 ### What does FF Ultima have to offer?
 
@@ -68,8 +60,6 @@ Every color scheme has it's own dark and light version. And FF Ultima cycles bet
   - If that isn't enough, Every color scheme has a dark & light version.
   - If that isn't enough, Users can go to the add-on store and use their favorite Themes with FF Ultima.
   - And If that isn't enough, Users can create their own color-schemes and integrate them right into the FF Ultima settings.
-
----
 
 ### Why user.js?
 

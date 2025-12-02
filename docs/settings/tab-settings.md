@@ -16,6 +16,14 @@ Both of these settings work for horizontal or vertical tabs, expandOnHover shoul
 
 <iframe width="100%" height="540" src="/img/settings/tabbarhiding.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### ultima.tabs.tabbar.autohide+compact
+
+With both `ultima.tabs.tabbar.autohide` and `ultima.tabs.tabbar.autohide+compact` enabled, the tabs container shrinks into a compact Zen Style.
+
+<img width="100%" src="../../../img/settings/tabbarautohidecompact.png" />
+
+> Submitted by [shiyarou](https://github.com/shiyarou) [#432](https://github.com/soulhotel/FF-ULTIMA/issues/432)
+
 ### ultima.tabs.horizontal.under.navbar
 
 When using horizontal tabs, toggle between tabs on top, or tabs under the urlbar

@@ -1,0 +1,35 @@
+@layer docusaurus.infima {
+    .markdown > h2, h3 {
+        margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * var(--ifm-leading) + 35px);
+        border-top: 1px solid rgba(75,75,75,0.2);
+        padding-top: 25px;
+    }
+    .markdown h6 {
+        font-weight: 400 !important;
+    }
+    .alert {
+        border-width: 0px !important;
+    }
+    .alert--secondary {
+        --ifm-alert-background-color: rgba(150,150,150,0.1); 
+    }
+    .alert--warning {
+        --ifm-alert-background-color: rgba(255, 192, 58, 0.253);
+    }
+    .alert--info {
+        background: color-mix(in srgb, var(--ifm-color-primary) 25%, transparent);
+    }
+
+    [data-theme="dark"] {
+        .prism-code, .theme-code-block {
+            background-color: rgb(32, 32, 36) !important;
+        }
+        div[class*="codeBlockTitle"] {
+            border: none !important;
+        }
+        code:not(:has(span)) {
+            background-color: rgb(27, 26, 32);
+            border: 1px solid rgba(50,50,50,1);
+        }
+    }
+}

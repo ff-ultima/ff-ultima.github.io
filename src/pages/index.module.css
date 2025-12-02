@@ -60,37 +60,32 @@ p {
   &:not(:hover) {
     transition: all 1s;
   }
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 11px -5px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .DocButton {
-  background: linear-gradient(135deg, #bc8dda 0%, #8e5fb0 100%);
+  background: linear-gradient(165deg, #bc8dda 0%, #583175 100%);
   &:hover {
-    background: linear-gradient(135deg, #b37fd6 0%, #a271bb 100%);
+    background: linear-gradient(165deg, #b881da 0%, #633983 90%);
   }
 }
 
 .latestReleaseButton {
-  background: linear-gradient(135deg, #6aa5fd 0%, #3067dd 100%);
+  background: linear-gradient(165deg, #6aa5fd 0%, #1c356b 100%);
   &:hover {
-  background: linear-gradient(135deg, #5c9ef8 0%, #3b7fe6 100%);
+    background: linear-gradient(165deg, #6aa5fd 0%, #1c356b 90%);
   }
 }
 
 .IssueButton {
-  background: linear-gradient(135deg, #e78c53 0%, #b96c3f 100%);
+  background: linear-gradient(165deg, #e78c53 0%, #86441d 100%);
   &:hover {
-  background: linear-gradient(135deg, #ec8f54 0%, #cf6e2e 100%);
+    background: linear-gradient(165deg, #e78c53 0%, #86441d 90%);
   }
 }
-
-.DocButton:hover, 
-.latestReleaseButton:hover, 
-.IssueButton:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 11px -5px rgba(0, 0, 0, 0.5);
-}
-
-
 
 
 

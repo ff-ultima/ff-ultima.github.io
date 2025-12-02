@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'FF Ultima Wiki',
+  title: 'FF Ultima',
   tagline: 'The Firefox theme with too many options',
   favicon: 'img/favicon.ico',
   future: {
@@ -74,7 +74,7 @@ const config = {
           },
           {
             label: 'Download',
-            href: 'https://github.com/soulhotel/FF-CSS-ULTIMA/releases/latest',
+            href: 'https://github.com/soulhotel/ff-ultima/releases/latest',
             position: 'left', // or 'right' if you want it on the right side
           },
           {

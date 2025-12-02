@@ -11,15 +11,13 @@ Browser Content refers to the main webpage view. The settings listed below eithe
 
 <img width="50%" alt="image" src="/img/settings/content.png" />
 
----
-
 ### ultima.spacing.compact.addonmanager
-
-> Submitted by [dreadbalaur](https://github.com/dreadbalaur)
 
 Makes the addon manager & themes page a compact grid layout
 
 ![compactaddon](https://github.com/user-attachments/assets/9f038884-f672-49ef-8108-db58809cdddc)
+
+> Submitted by [dreadbalaur](https://github.com/dreadbalaur)
 
 ### ultima.spacing.compact
 
@@ -45,11 +43,11 @@ Reverses the position of the content toolbox when docked bottom
 
 ### ultima.findbar.position.top
 
-> By [he23251](https://github.com/he23251), [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
-
 This setting moves the Find Bar - above browser content, and it makes a lot of sense being there. It also adds contrast to match results using the themes current accent color.
 
 <img width="100%" alt="image" src="/img/settings/findbarontop.gif" />
+
+> By [he23251](https://github.com/he23251) [#383](https://github.com/soulhotel/FF-ULTIMA/issues/383)
 
 ### ultima.findbar.disable.background.image
 
@@ -59,8 +57,6 @@ This setting hides the background image that some add-on themes attached to the 
 
 An alternative solution is to just use `spacing.compact` to remove the differences in border/color. 
 
-
----
 
 ## Related to Content
 

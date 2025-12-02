@@ -1,0 +1,22 @@
+* {
+    --doc-sidebar-width: 260px !important;
+}
+.docSidebarContainer, .theme-doc-sidebar-container {
+    border-right: none !important;
+}
+
+@layer docusaurus.infima {
+    .menu__link--active:not(.menu__link--sublist) {
+        background-color: unset !important;
+    }
+    .table-of-contents__left-border {
+        border-left: none !important;
+    }
+    .table-of-contents li {
+        padding-left: 15px;
+        text-decoration: none !important;
+    }
+    .menu__caret::before {
+        scale: 0.5;
+    }
+}

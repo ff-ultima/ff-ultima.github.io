@@ -42,6 +42,12 @@ Hide the buttons on the navigation bar when not hovered. When panels like the me
 
 <img width="98%" alt="preview" src="https://github.com/user-attachments/assets/a6b169c5-a16f-46f3-bbd9-79c9ef654fa0" />
 
+### ultima.navbar.position
+
+When combined with `navbar.autohide` or `navbar.float`, positions the nav bar at the top or bottom of the browser
+
+<iframe width="100%" height="470" src="https://github.com/user-attachments/assets/e3cad3e7-30df-44dd-b733-4907bfbd50c3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### ultima.navbar.windowcontrols
 
 There are a total of 4 custom window control styles
