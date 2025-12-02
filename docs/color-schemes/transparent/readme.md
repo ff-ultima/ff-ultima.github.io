@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 13
 description: Transparent
 id: Transparent
 ---
@@ -14,7 +14,7 @@ To use this color scheme:
 - Navigate to `about:config` page.
 - Search for `user.theme`.
 - Turn on `user.theme.transparent`
-- Visit the Transparent Theme [Wiki](https://github.com/soulhotel/FF-ULTIMA/wiki/Transparent-Theming).
+- View transparent/blur support section below
 
 Preview:
 ![preview](./preview.jpg)

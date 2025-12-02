@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 10
 description: Kanagawa Wave
 id: Kanagawa Wave
 ---
