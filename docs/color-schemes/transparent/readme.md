@@ -47,7 +47,7 @@ FF Ultima supports Mica or Blurred Windows (All Operating Systems) through the u
 
 > [#444](https://github.com/soulhotel/FF-ULTIMA/issues/444)
 
-<img width="20%" src="image.png" />
+<img width="20%" src="https://github.com/user-attachments/assets/dccfcc55-d26e-4407-84c0-076b904d49b6" />
 
 ## KDE Setup
 
