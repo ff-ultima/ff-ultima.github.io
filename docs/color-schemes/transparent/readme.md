@@ -42,7 +42,7 @@ FF Ultima supports Mica or Blurred Windows (All Operating Systems) through the u
    - I believe no other setup is required here.
 
 3. Windows Settings (Personalize)
-   - Ensure Transparency effects is set to true and accent color is set to automatic
+   - Ensure Transparency effects is set to `on`
    - Ensure Accent color is set to `Automatic`
 
 > [#444](https://github.com/soulhotel/FF-ULTIMA/issues/444)
