@@ -164,9 +164,9 @@ Tab group backgrounds are more flexible. They can be used seperately or combined
 
 <img src="https://github.com/user-attachments/assets/a5cfc33c-9627-48b7-8c96-798912b0a68e" width="28.5%" />
 
-### ultima.xstyle.containertabs
+### ultima.tabs.tabContainer
 
-You can choose one style for container tabs with: `ultima.xstyle.containertabs.i` (i, ii, iii)
+You can choose one style for container tabs with: `ultima.tabs.tabContainer.1` (1, 2, 3)
 <iframe width="100%" height="533" src="https://github.com/user-attachments/assets/9fa05514-6477-4dff-bd78-e050bf89f857" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ultima.tabs.tabbar.hide.buttonstrip

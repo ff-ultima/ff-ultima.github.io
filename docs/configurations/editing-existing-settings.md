@@ -3,7 +3,7 @@ sidebar_position: 4
 description: Tips for tweaking/modifying existing settings
 ---
 
-# Editting existing settings
+# Editing existing settings
 
 *This page is a list of *what can be* modifed and *how* within the source files. If you have an advanced understanding of CSS, then mostly anything can be modified when using your own judgement. And if you don't see something listed here, it just isn't documented yet*.*
 
