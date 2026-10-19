@@ -41,7 +41,7 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 <summary>Initial Setup Checklist</summary>
 - [x] If your Profile Folder does not have a `chrome` folder, create one.
 - [x] If your Profile Folder already has a `chrome` folder, empty it.
-- [x] The theme will automatically enable userChrome stylesheets via user.js.
+- [x] The theme will automatically enable userChrome stylesheets for you.
 - [x] Please have Firefox's System-Theme enabled. You can change this later.
 
 <img src="https://github.com/user-attachments/assets/c65972cf-88bf-41da-87d1-5d5a780230ba" width="650" />
@@ -49,36 +49,56 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 
 ## Installation
 
-1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
-2. Copy everything in the ffultima.zip into your `chrome` folder.
-3. For first time installation, you need to apply the `user.js` to firefox to access the theme settings.
-4. In the chrome folder, youll see the `user.js`, move it <ins>out the chrome folder and into the Profile Folder</ins>.
-5. Restart Firefox.
-6. <ins>**Wait** for Firefox to open</ins>, then delete the `user.js` file.
+1. Download the Setup Wizard on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
+2. Place the Setup Wizard in your `chrome` folder.
+3. Run the Setup Wizard and choose Install.
+
+> Video Demo
+
+<iframe width="100%" height="400" autoplay="false" src="/img/installation/installdemo.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<details>
+    <summary>Manual Installation</summary>
+    1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
+    2. Copy everything in the ffultima.zip into your `chrome` folder.
+    3. Get the [userChrome Companion](https://addons.mozilla.org/en-US/firefox/addon/userchrome-companion/) extension from Firefox.
+    4. In your `chrome/userchromejs/firefox` folder, move everything inside - into your firefox installation folder.
+    5. In Firefox, navigate to `about:support` and click on <kbd>Clear Startup Cache...</kbd> (This performs a clean Firefox restart)
+    ---
+    <details>
+        <summary>Need help finding your Firefox Installation Path?</summary>
+
+        You can find the Installation Path in the `about:support` page. It should point you to something like this:
+
+        |         | Common Firefox Installation Paths                               |
+        |---------|----------------------------------------------------------------|
+        | Windows | C:\Program Files\Mozilla Firefox\                              |
+        | Linux   | /usr/lib/firefox/                                              |
+        | Mac     | Firefox.app/Contents/Resources/                                |
+    </details>
+    ---
+    VIDEO TODO
+</details>
 
 ## After Installation..
 
-<details>
-<summary>Post Installation Checklist</summary>
 
-Go to `about:config` and search for `ultima` to see all of your settings. You should also see:
+After Installation you should open `userChrome Companion` to check out your theme settings. Browse the Wiki to learn more about what can be done:
 
-![image](https://github.com/user-attachments/assets/7c3c1fb9-8080-4823-9994-23e6af91498e)
-
-Browse the Wiki to learn more about what can be done:
 - [Frequently asked questions](/docs/getting-started#faq)
 - [All theme settings](/docs/category/theme-settings) (previews & explanations)
 - [How to update, uninstall, update](/docs/category/how-to)
 - [Sidebery configuration](/docs/configurations/sidebery) (optional)
 - Videos, documentation, and more..
-</details>
+
 
 ## Video Demonstrations
 
-Video installing FF Ultima 3.0+
+<details>
+<summary>Video installing FF Ultima 3.0+</summary>
 
 <iframe width="100%" height="490" src="https://www.youtube.com/embed/q48sZQ3nxe8?si=E6erW9WghTXROsAv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+</details>
 
 <details>
 <summary>Video installing FF Ultima 2.0+</summary>
@@ -98,6 +118,10 @@ Video installing FF Ultima 3.0+
 <iframe width="100%" height="490" src="https://www.youtube.com/embed/Cb350ZcjUu0?si=e47U7IxmFFFokZC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
-## Automated Installation
+## More About the Setup Wizard
 
-You can also automate the full installation process in [a couple of ways ->](./how-to-automate-installation)
+The Setup Wizard was introduced as of FF Ultima 5.0. It is the **recommended** way of installing FF Ultima and exist to make the entire setup process **EASY**. From installing, uninstalling, to updating; It downloads the theme into your chrome folder, it sets up userChrome Companion, and userChromeJS, it also handles a required Firefox restart. It does this all in 1 click with 0 dependencies.
+
+The setup wizard is just a compiled webpage written in Go (you can skim through it on the [github](https://github.com/soulhotel/FF-ULTIMA/tree/main/setup%20wizard)). With the amount of changes in FF Ultima 5.0 (introduction of userChrome Companion & userChromeJS), Users would have to perform 4-5 additional steps of moving files around, and going here then there then... just to set the theme up. So I created the Setup Wizard not just to avoid adding additional steps, but to make the entire process of theme-setup even easier than it was before. 
+
+It also makes updating the theme a lot easier, so Users no longer need to visit the repo, re-download files, then do the re-copy process all over again. You can simply run the Setup Wizard (already in your chrome folder), and click Update. And like mentioned above, It does this all in 1 click with 0 dependencies.

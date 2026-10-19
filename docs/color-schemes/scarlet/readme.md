@@ -10,10 +10,7 @@ Scarlet Edition
 By FF Ultima
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.scarlet`
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder.
 
 Preview:
 ![preview](./preview.png)

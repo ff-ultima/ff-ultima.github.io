@@ -10,11 +10,14 @@ Transparent Color Scheme
 A Transparent Adaptive Color Scheme, adapted to support Mica & Blur
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.transparent`
-- View transparent/blur support section below
+:::warning WIP
+
+Due to massive changes in FF Ultima 5.0, the transparent color scheme is currently unavailable, it will be back soon.
+
+:::
+
+
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder.
 
 Preview:
 ![preview](./preview.jpg)
@@ -55,15 +58,11 @@ FF Ultima supports Mica or Blurred Windows (All Operating Systems) through the u
    - In `Desktop Effects` - Enable `✓ Background Contrast` - Enable  `✓ Blur`. 
    - In `Blur Settings ⚙️` - Keep Blur strength high - Keep Noise strength low.
 
-2. Or [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur) (recommended) 
+2. Or [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur), Better blur DX (recommended) 
    - In `Desktop Effects` - Enable `✓ Background Contrast` - Enable `✓ Better Blur`.
    - In `Better Blur Settings ⚙️` - Keep Blur strength high, Keep Noise strength low.
    - In `Better Blur Settings ⚙️` - In `Force Blur` - Enable `✓ Blur menus`.
    - Any other settings are up to your own preference.
-
-## Mac Setup
-
-1. I need testers.
 
 ## Gnome Setup
 

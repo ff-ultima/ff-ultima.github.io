@@ -21,29 +21,22 @@ Here's a preview of Vertical Tabs & Sidebery side by side. Can you spot the diff
 Well yeah, you can spot the difference. But the point is.. Sidebery is automatically themed to be as consistent as possible to the native vertical tabs. This theming is only based on the colors of the current Color Scheme, so configuring your sidebery in other ways is still possible (since nothing else is modified).
 
 
+## Sidebery Only Setups
 
+The following settings help create a "Sidebery Only" setup
+- `ultima.tabs.hide-for-sidebery` - will automatically hide the tabs bar (vertical or horizontal) whenever Sidebery is open.
+<!-- - `ultima.tabs.autohide` - will autohide the tabs bar (vertical or horizontal) within the browsers screen edge. Keeping it still accessible via hover. -->
+
+<img style={{borderRadius: '6px'}} width="100%" src="../../img/settings/sideberyhidetabs.gif" />
 
 ## Sidebery Autohiding
 
-When using `sidebery.autohide`, the sidebar will push the browser content to the side when hovering. This is default behavior for an element with relative positioning. If you disable the native tab bar, then you can have it overlay browser content instead.
+By default Sidebery Autohide collapses the Sidebar into a ~40px width. Collapsed width can be altered by combining the following settings:
 
-<img width="49%" src="../../img/settings/sideberyautohidewithdefaulttabs.gif" />
-<img width="49%" src="../../img/settings/sideberyautohidewithtabsdisabled.gif" />
+- `ultima.sidebery.autohide` + `ultima.sidebery.autohide.4px`
+- `ultima.sidebery.autohide` + `ultima.sidebery.autohide.120px`
 
-
-
-
-## Sidebery Only Setup
-
-- `ultima.sidebery.autohide` + `ultima.tabs.tabbar.disabled` - to autohide Sidebery, with the native tabs bar disabled.
-- `ultima.sidebery.autohide` + `ultima.tabs.tabbar.autohide` - to autohide Sidebery, while keeping the native tab bar  hidden within the edge of the browser screen.
-
-The setting `ultima.tabs.tabbar.disabled` was prevously called `ultima.tabs.vertical.hide`. It previously only worked for vertical tabs but now applies to both vertical and horizontal tabs. When using the setting, <ins>make sure expandonHover is OFF</ins>, for the Vertical Tab Bar.
-
-<img width="100%" src="../../img/settings/sideberyonlysetup.gif" />
-
-
-
+<img style={{borderRadius: '6px'}} width="100%" src="../../img/settings/sideberyautohidesizes.gif" />
 
 ## Sidebery Extension Settings
 
@@ -55,11 +48,11 @@ The setting `ultima.tabs.tabbar.disabled` was prevously called `ultima.tabs.vert
 
 Basically a top down format works best with FF Ultima's themed Sidebery. Pinned tabs on top, and Navigation horizontal or hidden.
 
-If you don't want to use these extension settings, you can always disabled `user.theme.xtension.sidebery` and theme Sidebery completely to your own preference.
+Again, you don't have to use these extension settings, and you can even disable Ultimas Sidebery theming with `ultima.extension.theme.sidebery`
 
 ## Personal Configurations
 
-If you ever want to change the Sidebery theme, either change your Color Scheme `user.theme.` or turn off `user.theme.xtension.sidebery` to use default Sidebery (unmodified). You may be able to modify FF-Ultima's configuration in Sidebery's Style Editor too (untested).
+If you ever want to change the Sidebery theme, either change your Color Scheme `ultima.theme` or turn off `ultima.extension.theme.sidebery` to use default Sidebery (unmodified). You may be able to modify FF-Ultima's configuration in Sidebery's Style Editor too (untested).
 
 If you scroll down to `Other` in the Sidebery Style Editor. FF Ultima `uc` variables are recognized and editable. I haven't tested these much but it was surprising to see that Sidebery can detect them.
 
@@ -67,4 +60,4 @@ If you scroll down to `Other` in the Sidebery Style Editor. FF Ultima `uc` varia
 
 # That's all
 
-<iframe width="100%" height="490" autoplay="false" src="https://www.youtube.com/embed/xtUBmixQHvo?si=sbwFFhKCRRK4OeaR" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style={{borderRadius: '6px'}} width="100%" height="490" autoplay="false" src="https://www.youtube.com/embed/xtUBmixQHvo?si=sbwFFhKCRRK4OeaR" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

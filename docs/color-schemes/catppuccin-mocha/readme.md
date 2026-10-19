@@ -10,11 +10,7 @@ Catppuccin Mocha Edition
 By Draff @ItsLogic
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.catppuccin-mocha`
-- Enjoy.
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder. Enjoy.
 
 Preview:
 ![preview](./preview.png)

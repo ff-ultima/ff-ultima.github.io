@@ -10,11 +10,7 @@ Ayu dark and light
 By Crysthamus https://github.com/Crysthamus
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.ayu`
-- Enjoy.
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder. Enjoy.
 
 Preview:
 ![preview](./preview.png)

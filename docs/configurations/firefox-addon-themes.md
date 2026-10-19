@@ -9,9 +9,9 @@ description: Using add-on themes (extensions) in FF Ultima
 
 Here's a couple of add-on themes being used in the theme, to get an idea on what to expect.
 
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/N7IRp_a0lBQ?si=y16BG5vFq-wG2WzB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style={{borderRadius: '6px'}} width="100%" height="490" src="https://www.youtube.com/embed/N7IRp_a0lBQ?si=y16BG5vFq-wG2WzB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Add-on themes are hit-or-miss when used with FF Ultima, I've spent a long time trying to get the most consistent result but what works in one add-on theme won't be garuanteed to work in a different add-on theme. Scroll down for an extra tweak that can be done for add-on themes that miss the mark.
+Add-on themes are hit-or-miss when used with FF Ultima, I've spent a long time trying to get the most consistent result but what works in one add-on theme won't be garuanteed to work in a different add-on theme.
 
 ## How Firefox Color (extension) looks in FF Ultima
 
@@ -21,14 +21,10 @@ This has only been tested with the "custom colors" tab and "custom backgrounds" 
 
 ## Extra tweak to add-on themes
 
-By restricting FF Ultima's color schemes to a non-lw-theme state, Firefox add-on themes can be used as normal. But there is 1 specific quirk. Firefox's default appearance allows color-schemes to be very dynamic but also messy in how they apply colors to the browser. The inconsistency of an add-on themes colors can become very visible in a theme that has rounded corners/padding. There is no one-size-fits-all solution to this, but there is a setting that can "attempt" to swap an add-on themes colors to correct any inconsistencies.
+By restricting FF Ultima's color schemes to a non-lw-theme state, Firefox add-on themes can be used as normal. But there is 1 specific quirk. Firefox's default appearance allows color-schemes to be very dynamic but also messy in how they apply colors to the browser. The inconsistency of an add-on themes colors can become very visible in a theme that has rounded corners/padding. There is no one-size-fits-all solution to this.. Using `ultima.spacing.compact` helps for add-on themes that fail to keep the same background for the window and the nav bar.
 
-Use `user.theme.xtension.swap.addon.colors` to swap add-on theme colors.
-
-Use `ultima.spacing.compact` for add-on themes that fail to keep the same background for the window and the nav bar.
-
-:::note
+<!-- :::note
 This video is a bit outdated, but the concept remains the same.
 :::
 
-<iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="490" src="https://www.youtube.com/embed/jYbccJ1nXzk?si=F9jY24aOYcAKUmXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->

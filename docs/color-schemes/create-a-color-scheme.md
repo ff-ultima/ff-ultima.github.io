@@ -4,22 +4,27 @@ sidebar_position: 1
 
 # Create a Color Scheme
 
-A Detailed Guide for creating Color Schemes in FF Ultima 3.0+
+:::warning Hey!
 
+Due to massive changes in FF Ultima 5.0, the following guide needs to be updated. It's still accurate, but a WIP.
+
+:::
+
+A Detailed Guide for creating Color Schemes in FF Ultima 3.0 to 5.0
 
 ## Color Scheme Overview
 Color Schemes are centralized to 3 files.
 
 <details>
-<summary>1. ffu-internal-appearance.css</summary>
+<summary>1. global-theme.css</summary>
 
 This file is the foundation for FF Ultima's custom appearance. All color-schemes are built on top of this custom appearance by overriding colors, borders, shadows, and more. You actually do not need to worry about this file.
 </details>
 
 <details>
-<summary>2. ffu-colorscheme.css</summary>
+<summary>2. theme-(theme name).css</summary>
 
-Each color scheme has a `chrome/theme/color-schemes/folder`. Inside of this folder you will find a `ffu-colorscheme.css` file. To create your own color scheme, you will essentially need to recreate this structure, for your own theme.
+Each color scheme has a `chrome/theme/color-schemes/(theme name)` folder. Inside of this folder you will find a `theme-(theme name).css` file. To create your own color scheme, you will essentially need to recreate this structure, for your own theme.
 </details>
 
 <details>
@@ -51,13 +56,13 @@ There are three list in `apply-cs.css`. Each list makes the color scheme availab
 In `chrome/theme/color-schemes`, <ins>**copy**</ins> one of the color schemes that you want to use as a foundation. I recommend copying `default` if you want more control. Or `catppuccin` if you only want to setup colors. For this example, I'm going to assume you chose `default`.
 
 1. Make a copy of the `default/` folder, and change the copies name to the name of your theme (example: `soho/`).
-2. Inside of the newly made `soho/` folder, you'll find `ffu-colorscheme.css`, open it in a text editor.
-3. These lines in the file are really all you need to create a color scheme:
+2. Inside of the newly made `soho/` folder, you'll find `theme-default.css`, rename it to your theme (example: `theme-soho.css`)
+3. Open it in a text editor. These lines in the file are really all you need to create a color scheme:
     - `Line 4 •` File Desc: `soho` color scheme.
     - `Line 17 to 43 •` all the colors for dark mode.
     - `Line 48 to 74 •` all the colors for light mode.
 
-Any further modification to the lines beyond that are for finer adjustments and other custom modifications. I recommend creating the color scheme inside of Firefox rather than a text editor. That way you can setup the colors and modifications live and view your changes in real-time. I'll show you how below.
+Any further modification to the lines beyond that are for finer adjustments and other custom modifications. I recommend creating the color scheme inside of Firefox rather than a text editor. That way modify everything live, and see your changes happen in real-time. I'll show you how below.
 
 I also recommend doing this before we continue: On Line 17, edit `--uc-browser-color`, change it to `red`. You'll see why later.
 
@@ -67,7 +72,8 @@ I also recommend doing this before we continue: On Line 17, edit `--uc-browser-c
 
 All that's left is to setup the colors. The best way to do that is live, inside of Firefox. We'll be doing this with the help of Firefox's built-in Browser Toolbox. You can close the theme files. And Start (Restart) Firefox to continue.
 
-- In Firefox, go to the about:config page and enable your color-scheme (example: `user.theme.soho`). Turn all other color-schemes off.
+- `For FF Ultima 3.0 to 5.0:` In Firefox, go to the about:config page and enable your color-scheme (example: `user.theme.soho`). Turn all other color-schemes off.
+- `For FF Ultima 5.0:` In Firefox, open userChrome Companion and add your color-scheme as a new option.
 - If you followed my recommendation in `Part 1`, your Browser should now be *red*.
 - Open the browser toolbox (live debugger) with `ctrl+shift+alt+I`
 - By default, it may be on the `Inspector` Tab. Go to the `Style Editor` tab.

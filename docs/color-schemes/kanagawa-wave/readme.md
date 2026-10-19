@@ -10,10 +10,7 @@ Kanagawa Wave Edition
 By Pitchaya S @pitchaya-s
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.kanagawa-wave`
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder.
 
 Preview:
 

@@ -7,26 +7,31 @@ description: Ways to uninstall FF Ultima
 
 :::danger Hey!
 
-You <ins>never</ins> need to reinstall Firefox or reset Firefox, just to remove FF Ultima (and most css themes). This action is excessive and waste your own time. I would also hate to make a situation where someone has to do that, so if you ever need to "reset" or remove the theme... Just disable userchrome or delete your chrome folder.
+You <ins>never</ins> need to reinstall Firefox or reset Firefox, just to remove FF Ultima (and most css themes). This action is excessive and waste your own time. I would also hate to make a situation where someone has to do that, so if you ever need to "reset" or remove the theme... Just delete the files in your chrome folder.
 
 :::
 
 ### Two ways to uninstall the theme
 
-If you disable userchrome, firefox will stop interacting with the chrome folder (theme files). Or if you delete the chrome folder (or everything inside of it), firefox will have nothing to be themed with (since the theme will no longer exist). Choose whichever method you prefer.
+If you disable userchrome, firefox will stop interacting with the chrome folder (theme files). Or if you delete the chrome folder (or everything inside of it), firefox will have nothing to be themed with (since the theme will no longer exist). The Setup Wizard handles this all with one click. But choose whichever method you prefer: 
 
-#### 1. Disable FF Ultima
+#### Uninstall with Setup Wizard
+   - Open the setup & click Uninstall
+   - This will delete the theme files from the `chrome` folder
+   - It will also completely remove `userChromeJS`
+
+#### Or Disable FF Ultima
    - On the about:config page
    - Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `false`
-   - This disables the theme (by disabling userChrome)
+   - This disables the theme (by disabling userChrome css)
    - Restart Firefox
 
-#### 2. Delete FF ultima
+#### Or Manually Delete FF Ultima
    - Delete the `chrome` folder containing the theme files
    - Restart Firefox
 
-### Deleting FF Ultima Settings
+VIDEO TODO
 
-Unfortunately, there's no way to mass-delete the about:config preferences.. but.. With the theme disabled or deleted, the settings will do absolutely nothing even if you leave them in about:config. For the sake of *cleanliness or mental clarity or just ocd*.. You can still delete about:config preferences with the <kbd>🗑</kbd> button, on the about:config page:
+### userChrome Companion
 
-<img src="https://github.com/user-attachments/assets/e0a56432-4e94-4741-99b1-f47d373bf09f" height="400px"/>
+userChrome Companion can be removed like any other extension. Although if you want it to completely remove all of the themes mozilla preferences from the about:config page. Go to `Settings` > `Data` > `Reset userChrome Companion`.

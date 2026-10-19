@@ -10,14 +10,9 @@ Midnight Edition
 By FF Ultima
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.midnight`
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder.
 
 Preview:
-![preview](./preview.png)
-
-https://github.com/user-attachments/assets/d32bb737-6f70-4577-ba6a-81a19aa54f0f
+![preview](./preview.gif)
 
 Color schemes are easy to create: Learn how with the [Color Scheme](/docs/color-schemes/create-a-color-scheme) Wiki.

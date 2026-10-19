@@ -109,10 +109,21 @@ This setting simply reverses the order in which things appear in a tab. Close bu
 
 <img width="60%" src="https://github.com/user-attachments/assets/366ba7f4-70fb-411c-8e6f-ece761241d72" />
 
+### ultima.tabs.tab.outline
 
-### user.theme.xtras.tab.outline.color
+You can force tabs to have an outline style by setting `ultima.tabs.tab.outline` to a string.
 
-You can specify a tab outline color by typing in a color (or gradient). Leave empty for no outline.
+- type `full` for a basic 4 sided tab outline
+- type `top` for a proton style top sided outline (inspired by @He23251's private.gradient setting and @AuRiMaS666)
+- leave empty for no outline
+
+preview
+
+### ultima.tabs.tab.outline.color
+
+When combined with `ultima.tabs.tab.outline` above, you can specify a tab outline color.
+- type basic colors like: `red, green, blue, pink, black, white`
+- or type `gradient` for an animated gradient style
 
 <img width="100%" src="https://github.com/user-attachments/assets/61fd57fb-1ab2-47fc-8115-d42e40056e07" />
 

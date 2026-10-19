@@ -10,10 +10,7 @@ Default Edition
 By FF ULTIMA
 ```
 
-To use this color scheme:
-- Navigate to `about:config` page.
-- Search for `user.theme`.
-- Turn on `user.theme.0.default`
+This color scheme can be found and used in `userChrome Companions` > `Color Schemes` folder.
 
 Preview:
 ![preview1](./p1.png)
