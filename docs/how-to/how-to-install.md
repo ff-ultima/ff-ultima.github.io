@@ -70,11 +70,11 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 
         You can find the Installation Path in the `about:support` page. It should point you to something like this:
 
-        |         | Common Firefox Installation Paths                               |
-        |---------|----------------------------------------------------------------|
-        | Windows | C:\Program Files\Mozilla Firefox\                              |
-        | Linux   | /usr/lib/firefox/                                              |
-        | Mac     | Firefox.app/Contents/Resources/                                |
+        |         | Firefox                           | Developer Edition                                 | Nightly                                 |
+        |---------|-----------------------------------|---------------------------------------------------|-----------------------------------------|
+        | Windows | C:\Program Files\Mozilla Firefox\ | C:\Program Files\Firefox Developer Edition\       | C:\Program Files\Firefox Nightly\       |
+        | Linux   | /usr/lib/firefox/                 | /usr/lib/firefox-developer-edition/               | /opt/firefox-nightly/                   |
+        | Mac     | Firefox.app/Contents/Resources/   | Firefox Developer Edition.app/Contents/Resources/ | Firefox Nightly.app/Contents/Resources/ |
     </details>
     ---
     VIDEO TODO
