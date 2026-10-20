@@ -5,15 +5,15 @@ description: Installing the theme, with a video demo
  
  # How to Install
 
-:::note
+## First time?
+
+<details>
+<summary>Introduction to userChrome</summary>
 
 FF Ultima is a userChrome Theme. And all userChrome themes work by communicating with a `chrome folder` located in your `Firefox Profile folder`. This folder typically holds `.css` files with the purpose of customizing elements of the Browser. So think of the `chrome` folder as your User Interface for managing <ins>everything userChrome</ins>. Installing FF Ultima is as simple as grabbing the theme files and placing them inside of your chrome folder.
 
-:::
-
 ![test](/img/installation/install.png)
-
-## First time?
+</details>
 
 <details>
  <summary>Finding your Profile Folder (where the theme files go)</summary>
@@ -25,9 +25,8 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 <img src="https://github.com/user-attachments/assets/e520eb35-f09c-4925-92f6-44be4ec18d51" width="850" />
 </details>
 
-
 <details>
-<summary>Finding your Profile Folder (where the theme files go) with about:profiles</summary>
+<summary>Finding your Profile Folder (where the theme files go) (with about:profiles)</summary>
 
 1. Go to the about:profiles page/url.
 2. If you have multiple firefox profiles, make sure you are working with the right one.
@@ -47,41 +46,47 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 <img src="https://github.com/user-attachments/assets/c65972cf-88bf-41da-87d1-5d5a780230ba" width="650" />
 </details>
 
+
+
 ## Installation
 
 1. Download the Setup Wizard on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
 2. Place the Setup Wizard in your `chrome` folder.
 3. Run the Setup Wizard and choose Install.
 
-> Video Demo
+All Done. The Setup Wizard is a new integration into FF Ultima. If you run into any issues, please report on the Github. Issues can also be fixed right away by following the manual installation process wherever the error may have occured. Below is a **Video Demo** of the 3 Step process, below that is a manual installation guide.
 
 <iframe width="100%" height="400" autoplay="false" src="/img/installation/installdemo.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+
+## Manual Installation
+
+> Note: Video Demo for this process will be included before today ends.
+
+1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
+2. Copy everything in the ffultima.zip into your `chrome` folder.
+3. Get the [userChrome Companion](https://addons.mozilla.org/en-US/firefox/addon/userchrome-companion/) extension from Firefox.
+4. In your `chrome/userchromejs/firefox` folder, move everything inside - into your firefox installation folder.
+5. In Firefox, navigate to `about:support` and click on <kbd>Clear Startup Cache...</kbd> (This performs a clean Firefox restart)
+
 <details>
-    <summary>Manual Installation</summary>
-    1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
-    2. Copy everything in the ffultima.zip into your `chrome` folder.
-    3. Get the [userChrome Companion](https://addons.mozilla.org/en-US/firefox/addon/userchrome-companion/) extension from Firefox.
-    4. In your `chrome/userchromejs/firefox` folder, move everything inside - into your firefox installation folder.
-    5. In Firefox, navigate to `about:support` and click on <kbd>Clear Startup Cache...</kbd> (This performs a clean Firefox restart)
-    ---
-    <details>
-        <summary>Need help finding your Firefox Installation Path?</summary>
+    <summary>Need help finding your Firefox Installation Path?</summary>
 
-        You can find the Installation Path in the `about:support` page. It should point you to something like this:
+    You can find the Installation Path in the `about:support` page. It should point you to something like this:
 
-        |         | Firefox                           | Developer Edition                                 | Nightly                                 |
-        |---------|-----------------------------------|---------------------------------------------------|-----------------------------------------|
-        | Windows | C:\Program Files\Mozilla Firefox\ | C:\Program Files\Firefox Developer Edition\       | C:\Program Files\Firefox Nightly\       |
-        | Linux   | /usr/lib/firefox/                 | /usr/lib/firefox-developer-edition/               | /opt/firefox-nightly/                   |
-        | Mac     | Firefox.app/Contents/Resources/   | Firefox Developer Edition.app/Contents/Resources/ | Firefox Nightly.app/Contents/Resources/ |
-    </details>
-    ---
-    VIDEO TODO
+    |         | Firefox                           | Developer Edition                                 | Nightly                                 |
+    |---------|-----------------------------------|---------------------------------------------------|-----------------------------------------|
+    | Windows | C:\Program Files\Mozilla Firefox\ | C:\Program Files\Firefox Developer Edition\       | C:\Program Files\Firefox Nightly\       |
+    | Linux   | /usr/lib/firefox/                 | /usr/lib/firefox-developer-edition/               | /opt/firefox-nightly/                   |
+    | Mac     | Firefox.app/Contents/Resources/   | Firefox Developer Edition.app/Contents/Resources/ | Firefox Nightly.app/Contents/Resources/ |
 </details>
 
-## After Installation..
+VIDEO TODO
 
+
+
+## After Installation..
 
 After Installation you should open `userChrome Companion` to check out your theme settings. Browse the Wiki to learn more about what can be done:
 
