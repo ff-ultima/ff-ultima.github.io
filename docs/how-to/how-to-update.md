@@ -15,9 +15,9 @@ When a Theme Update is available. You can simple run the setup wizard to update:
 
 VIDEO TODO
 
-The `Setup Wizard` simply downloads the updated theme files into your chrome folder via https://github.com/soulhotel/FF-Ultima/archive/refs/heads/main.zip. `userChrome Companion` will also notify you whenever theme settings have been updated, and you can automatically sync (grab new settings) whenever that happens.
+The `Setup Wizard` simply downloads the updated theme files into your chrome folder via https://github.com/soulhotel/FF-Ultima/archive/refs/heads/main.zip. You'll also be prompted to restart Firefox after updating. This is the norm when reloading userChrome files.. But if you have `ffu.chrome.watcher` enabled, you can skip this restart. The userChrome Watcher will automatically reload files that change in the chrome folder - no restart required.
 
-Setup Wizard also prompts you to restart Firefox after updating. This is the norm when reloading userChrome files.. But if you have `ffu.chrome.watcher` enabled, you can skip this restart. The userChrome Watcher will automatically reload files that change in the chrome folder - no restart required.
+`userChrome Companion` also notifies you whenever theme settings have been updated in the source, and it can automatically sync (grab new settings) whenever that happens. But note that the extension does not perform any actual theme update.
 
 ## Staying updated
 

@@ -54,9 +54,38 @@ FF Ultima is a userChrome Theme. And all userChrome themes work by communicating
 2. Place the Setup Wizard in your `chrome` folder.
 3. Run the Setup Wizard and choose Install.
 
+<iframe width="100%" height="400" autoplay="false" src="/img/installation/installdemo.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 All Done. The Setup Wizard is a new integration into FF Ultima. If you run into any issues, please report on the Github. Issues can also be fixed right away by following the manual installation process wherever the error may have occured. Below is a **Video Demo** of the 3 Step process, below that is a manual installation guide.
 
-<iframe width="100%" height="400" autoplay="false" src="/img/installation/installdemo.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<details>
+<summary>Common Setup Wizard Issues</summary>
+
+#### Mac Intel?
+
+On the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest), you'll find a `setup-wizard-mac-intel`, use that if you arent on Mac Arm.
+
+---
+
+#### Permission Denied?
+
+For Linux/Mac, you may need to grant the setup wizard permission to run. This can be done by granting permission to run through your file manager's UI, or with the following command (for your system):
+```
+chmod +x setup-wizard-linux     # linux
+chmod +x setup-wizard-mac       # for mac arm
+chmod +x setup-wizard-mac-intel # for mac intel
+```
+Note: On Mac, you may also want to run the command `xattr -c setup-wizard-mac` or `xattr -c setup-wizard-mac-intel`. This avoids the "downloaded from the internet, develoepr can't be verified" warning.
+
+---
+
+#### UserChrome Companion failing to connect to userchromejs?
+
+This is a sign of permission failure in the setup wizard. During the userchromejs setup step, the wizard will prompt you for admin rights or permission to move the files to the firefox directory. If permission is skipped, the file move will also be skipped. You can retry the install and ensure permission is granted or move the files manually by following Step 3 of "Manual Installation" below.
+
+</details>
+
+
 
 
 
@@ -67,11 +96,11 @@ All Done. The Setup Wizard is a new integration into FF Ultima. If you run into 
 1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
 2. Copy everything in the ffultima.zip into your `chrome` folder.
 3. Get the [userChrome Companion](https://addons.mozilla.org/en-US/firefox/addon/userchrome-companion/) extension from Firefox.
-4. In your `chrome/userchromejs/firefox` folder, move everything inside - into your firefox installation folder.
+4. In your `chrome/userchromejs/firefox` folder, move everything inside - into your Firefox Installation Folder.
 5. In Firefox, navigate to `about:support` and click on <kbd>Clear Startup Cache...</kbd> (This performs a clean Firefox restart)
 
 <details>
-    <summary>Need help finding your Firefox Installation Path?</summary>
+    <summary>Need help finding your Firefox Installation Folder?</summary>
 
     You can find the Installation Path in the `about:support` page. It should point you to something like this:
 

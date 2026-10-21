@@ -27,7 +27,7 @@
 
   --docsearch-searchbox-background: var(--ifm-background-color);
 
-  --docsearch-searchbox-focus-background: rgb(26, 26, 34);
+  --docsearch-searchbox-focus-background: #23232A;
   --docsearch-modal-background: rgb(26, 26, 34);
   --docsearch-hit-background: rgb(26, 26, 34);
 
