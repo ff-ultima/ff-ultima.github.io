@@ -75,13 +75,13 @@ chmod +x setup-wizard-linux     # linux
 chmod +x setup-wizard-mac       # for mac arm
 chmod +x setup-wizard-mac-intel # for mac intel
 ```
-Note: On Mac, you may also want to run the command `xattr -c setup-wizard-mac` or `xattr -c setup-wizard-mac-intel`. This avoids the "downloaded from the internet, develoepr can't be verified" warning.
+Note: On Mac, you may also want to run the command `xattr -c setup-wizard-mac` or `xattr -c setup-wizard-mac-intel`. This avoids the "downloaded from the internet, developer can't be verified" warning.
 
 ---
 
 #### UserChrome Companion failing to connect to userchromejs?
 
-This is a sign of permission failure in the setup wizard. During the userchromejs setup step, the wizard will prompt you for admin rights or permission to move the files to the firefox directory. If permission is skipped, the file move will also be skipped. You can retry the install and ensure permission is granted or move the files manually by following Step 3 of "Manual Installation" below.
+This is a sign of permission failure in the setup wizard. During the userchromejs setup step, the wizard will prompt you for admin rights or permission to move the files to the firefox directory. If permission is skipped, the file move will also be skipped. You can retry the install and ensure permission is granted or move the files manually by following Step 4 of "Manual Installation" below.
 
 </details>
 

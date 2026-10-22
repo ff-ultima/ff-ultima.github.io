@@ -5,8 +5,6 @@ description: How to update FF Ultima, and stay informed
 
 # How to Update
 
-<!-- import ReactPlayer from 'react-player'; -->
-
 ## How to Update
 
 When a Theme Update is available. You can simple run the setup wizard to update:
@@ -37,7 +35,18 @@ It's organized in a way that only tell you what you need to know:
 - Whats been fixed
 - New settings
 
-## Git
+<!-- ## Updating with userChrome Watcher
+
+`userChrome Watcher` lets you update the theme **without** having to Restart the Browser.
+
+VIDEO OR GIF TODO
+
+Under the hood, it's a userchromejs script (userChromeWatcher.ffu.js) that watches your chrome folder for changes, live-reloading styles & scripts when changes occur. It monitors:
+- chrome/userChrome.css - which imports all of the themes styles for the browser
+- chrome/userContent.css - which imports all of the themes stlyes for web content
+- chrome/userchromejs/scripts/ffu/ - folder which contains all of the ultima userchromejs scripts -->
+
+## Updating with git
 
 While the Setup Wizard is recommended. You can still update the theme with git, since updating all takes place in the chrome folder:
 
@@ -106,6 +115,8 @@ Note: Using git manually means pulling in files & folders that you don't need in
 The Setup Wizard's update procedure is also just a simple git-direct-link download, but it excludes these from the chrome folder for you.
 
 :::
+
+
 
 
 
