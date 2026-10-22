@@ -91,7 +91,7 @@ This is a sign of permission failure in the setup wizard. During the userchromej
 
 ## Manual Installation
 
-> Note: Video Demo for this process will be included before today ends.
+> Note: Video Demo for this process will be included soon, hopefully tomorrow! I promise.
 
 1. Download the latest version on the [release page](https://github.com/soulhotel/FF-ULTIMA/releases/latest).
 2. Copy everything in the ffultima.zip into your `chrome` folder.
